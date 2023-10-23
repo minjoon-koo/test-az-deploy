@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: hello-world-php
-          image: vaultacrsoldout.azurecr.io/hello-world-php:latest
+          image: vaultacrsoldout.azurecr.io/minjoon-koo/test-az-deploy:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
