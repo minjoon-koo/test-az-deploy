@@ -4,5 +4,5 @@ with open('vault_secret_name.txt', 'r') as file:
         text = f"echo $({line.strip()})"
         #os.system(f"echo \$$({line.strip()})")
         
-        with open('create_env.sh', 'a') as file:
+        with open('create_env.txt', 'a') as file:
             file.write(f"\n{text}")
