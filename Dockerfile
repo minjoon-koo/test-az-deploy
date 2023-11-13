@@ -16,8 +16,6 @@ RUN composer require vlucas/phpdotenv
 # Copy files to container
 COPY index.php /var/www/html/
 COPY .env /var/www/html/
-COPY val.txt /var/www/html/
-COPY val2.txt /var/www/html/
 
 EXPOSE 80
 
