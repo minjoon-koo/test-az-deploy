@@ -15,7 +15,12 @@ RUN composer require vlucas/phpdotenv
 
 # Copy files to container
 COPY index.php /var/www/html/
-COPY .env /var/www/html/
+COPY ./envs/t1.env /var/www/html/
+COPY ./envs/t2.env /var/www/html/
+COPY ./envs/test.env /var/www/html/
+COPY ./envs/qa.env /var/www/html/
+COPY ./envs/stage.env /var/www/html/
+
 
 EXPOSE 80
 
