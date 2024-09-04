@@ -35,5 +35,15 @@ spec:
               number: 80
         path: /
         pathType: Prefix
+  - host: hemlhtm.soldout.co.kr
+    http:
+      paths:
+      - backend:
+          service:
+            name: hello-htm
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
 #  tls:
 #  - secretName: soldout-tls

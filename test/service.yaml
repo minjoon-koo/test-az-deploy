@@ -25,4 +25,18 @@ spec:
     targetPort: 80
   selector:
     app: test-az-deploy2
-  type: ClusterIP  
+  type: ClusterIP 
+--- 
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-htm
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: test-az-deploy3
+  type: ClusterIP 
