@@ -1,14 +1,15 @@
 <?php
 
 // Load .env file using phpdotenv
-require 'vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+//require 'vendor/autoload.php';
+//$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+//$dotenv->load();
 
 echo "Hello World!";
 
 echo "latast";
 
+/*
 $aValue = getenv("a");
 echo "a Variable Value: " . $aValue . "<br>";
 
@@ -35,5 +36,5 @@ echo "h Variable Value: " . $hValue . "<br>";
 
 $iValue = getenv("i");
 echo "i Variable Value: " . $iValue . "<br>";
-
+*/
 ?>
