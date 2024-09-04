@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test-az-deploy
+  name: test-az-deploy2
 
 spec:
   selector:
     matchLabels:
-      app: hello-world-php-deploy
+      app: test-az-deploy2
 
   replicas: 1
   strategy:
@@ -18,8 +18,8 @@ spec:
   template:
     metadata:
       labels:
-        app: hello-world-php-deploy
-
+        app: test-az-deploy2
+        
     spec:
       containers:
         - name: hello-world-php
