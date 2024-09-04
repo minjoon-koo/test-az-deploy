@@ -1,0 +1,28 @@
+### test.php
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-helm
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: hello-world-php-deploy
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-html
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: test-az-deploy2
+  type: ClusterIP  

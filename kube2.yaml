@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-az-deploy
+
+spec:
+  selector:
+    matchLabels:
+      app: hello-world-php-deploy
+
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+
+  template:
+    metadata:
+      labels:
+        app: hello-world-php-deploy
+
+    spec:
+      containers:
+        - name: hello-world-php
+          image: vaultacrsoldout.azurecr.io/minjoon-koo/test-az-deploy:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+
+      dnsConfig:
+        options:
+        - name: ndots
+          value: "2"            
+
+      terminationGracePeriodSeconds: 30

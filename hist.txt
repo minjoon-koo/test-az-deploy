@@ -1,0 +1,2363 @@
+    1  python3
+    2  ttys001\n➜  ~\n➜  ~\n➜  ~\n➜  ~\n\n
+    3  python
+    4  python3
+    5  brew
+    6  ls
+    7  pwd
+    8  cd Documents
+    9  ls
+   10  ls
+   11  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   12      (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/cubus/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"\n
+   13  brew
+   14  brew install python3
+   15  python3
+   16  python3 -version
+   17  brew uninstall python3
+   18  pyrhon3
+   19  python3
+   20  ls
+   21  pip3
+   22  cd /opt/homebrew/Cellar/python@3.11/
+   23  cd ~
+   24  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   25  pwd
+   26  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+   27  vi ~/.zshrc
+   28  source ~/.zshrc
+   29  
+   30  
+   31  p10k configure
+   32  ls
+   33  wpd
+   34  pwd
+   35  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+   36  echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+   37  source ~/.zshrc
+   38  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   39  open ~/.zshrc
+   40  az
+   41  brew update && brew install azure-cli
+   42  python3
+   43  az
+   44  pwd
+   45  mkdir cubus
+   46  ls
+   47  cd cubus
+   48  ls
+   49  az login
+   50  pip3 install django
+   51  ls
+   52  django-admin
+   53  django-admin startproject api
+   54  cd api
+   55  mysql
+   56  brew install mysql
+   57  ls
+   58  pwd
+   59  cd ..
+   60  ls
+   61  cd DB
+   62  ls
+   63  docker build -t data-db .
+   64  docker run -d -p 3306:3306 --name data-db-instance data-db\n
+   65  cd ..
+   66  cd api
+   67  ls
+   68  python3 manage.py migrate
+   69  pip3 install mysqlclient
+   70  pip3 install --upgrade pip
+   71  pip3 install mysqlclient
+   72  brew install pkg-config\n
+   73  brew install mysql\n
+   74  brew reinstall mysql
+   75  pip3 install mysqlclient\n
+   76  ㅔㅑㅔ
+   77  pip3 install python-dotenv
+   78  python3
+   79  pip3 install requests
+   80  pip3 install djangorestframework
+   81  pip3 install social-auth-app-django
+   82  python3 manage.py migrate
+   83  cd api
+   84  ls
+   85  python3 manage.py migrate
+   86  pip3 show mysqlclient\n
+   87  pip3 install mysqlclient\n
+   88  python3
+   89  python3 manage.py migrate
+   90  history
+   91  python3 manage.py startapp data
+   92  python3 manage.py runserver
+   93  cd api
+   94  ls
+   95  python3 manage.py makemigrations
+   96  python3 manage.py sqlmigrate data 0001
+   97  python3 manage.py migrate
+   98  pip3 install mlxtend
+   99  ls
+  100  cd data/dataset
+  101  ls
+  102  pip show mlxtend
+  103  ㅣㄴ
+  104  ls
+  105  cd..
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd ..
+  110  ls
+  111  cd CACHE
+  112  ls
+  113  ls -al
+  114  cat e9cc65196cb5050d46899c6f9fc15842.djcache
+  115  ls
+  116  python3 manage.py runserver
+  117  ps -ef | grep python
+  118  kill -9 15026
+  119  python3 manage.py runserver
+  120  ㅣㄴ
+  121  ls
+  122  ls -al
+  123  python3 manage.py runserver
+  124  ls -al
+  125  python3 manage.py runserver
+  126  ps -ef | grep python
+  127  kill -9 36759 
+  128  ps -ef | grep python
+  129  kill -9 680 
+  130  kill -9 680
+  131  ps -ef | grep python
+  132  python3 manage.py runserver
+  133  cd ..
+  134  ls
+  135  python3 manage.py runserver
+  136  cd api
+  137  ls
+  138  cd CACHE
+  139  ls
+  140  ls -al
+  141  python3 manage.py runserver
+  142  ls -al
+  143  python3 manage.py runserver
+  144  ls -al
+  145  python3 manage.py runserver
+  146  ls -al
+  147  ps -ef | grep python
+  148  kill -9 60058
+  149  python3 manage.py runserver
+  150  ls -al
+  151  python3 manage.py runserver
+  152  ls -al
+  153  python3 manage.py runserver
+  154  ls -al
+  155  python3 manage.py runserver
+  156  ls -al
+  157  python3 manage.py runserver
+  158  ls -al
+  159  python3 manage.py runserver
+  160  pwd
+  161  cd cubus
+  162  ls
+  163  cd git
+  164  ls
+  165  cd data
+  166  ls
+  167  cd data
+  168  ls
+  169  cd DB
+  170  ls
+  171  docker run -d -p 3306:3306 --name data-db-instance data-db\n
+  172  ㅣㄴ
+  173  ls
+  174  ps -ef | grep python
+  175  kill -9 5689 
+  176  python3 manage.py runserver
+  177  ls -al
+  178  ls
+  179  python3
+  180  cd ..
+  181  ls
+  182  history | grep docker\n
+  183  docker build -t data-api .\n
+  184  history | grep docker\n
+  185  docker run -d -p 80:80 --name data-api-instance data-api
+  186  docker run -d -p 8924:80 --name data-api-instance data-api
+  187  docker build -t data-api .\n
+  188  docker run -d -p 8924:8000 --name data-api-instance data-api
+  189  ls
+  190  docker run -d -p 8924:8924 --name data-api-instance data-api
+  191  docker build -t data-api .\n
+  192  docker run -d -p 8924:8924 --name data-api-instance data-api
+  193  ls
+  194  cd ..
+  195  ls
+  196  python3 req.py
+  197  git
+  198  cd ..
+  199  ls
+  200  ls -al
+  201  cd data
+  202  ls
+  203  ls -al
+  204  ls
+  205  cd api
+  206  ls
+  207  gunicorn
+  208  pip3 install gunicorn
+  209  gunicorn
+  210  ps -ef | grep python
+  211  kill -9 6355
+  212  gunicorn api.wsgi:application --bind 0.0.0.0:8888
+  213  docker build -t data-api .\n
+  214  ls
+  215  cd api
+  216  ls
+  217  docker build -t data-api2 .\n
+  218  docker run -d -p 8989:80 --name data-api-instance2 data-api2
+  219  docker build -t data-api2 .\n
+  220  docker run -d -p 8989:80 --name data-api-instance2 data-api2
+  221  cd ..
+  222  ls
+  223  python3 req.py
+  224  ㅣㄴ
+  225  ls
+  226  cd ..
+  227  ls
+  228  cd soldout_data_api
+  229  ls
+  230  ls -al
+  231  git init
+  232  git remote add orgin https://github.com/sldt-co-ltd/soldout_data_api.git
+  233  git pull origin demo
+  234  git checkout -b dev
+  235  git add .
+  236  git commit -m "version 0.1"
+  237  git push orgin dev
+  238  git checkout -b master
+  239  git add .
+  240  git push origin master
+  241  git init
+  242  git push origin dev
+  243  git pull origin dev
+  244  git pull origin master
+  245  git checkout -b master
+  246  git add .
+  247  git commit -m "version 0.1"
+  248  git push origin master
+  249  git commit -m "version 0.1"
+  250  git push origin master
+  251  git config --global user.name minjoon-koo
+  252  git config --global user.email cubus.secu@gmail.com
+  253  git checkout -b master
+  254  git commit -m "version 0.1"
+  255  git push origin master
+  256  git init
+  257  git checkout -b master
+  258  git add .
+  259  git commit -m "demo"
+  260  git checkout master
+  261  git checkout dev
+  262  git checkout -b master
+  263  git add .
+  264  git commit -m "demo"
+  265  git push origin master
+  266  git add .
+  267  git commit -m "demo-readme"
+  268  git push origin master
+  269  docker build -t data-api3 .\n
+  270  ls
+  271  cd api
+  272  ls
+  273  docker build -t data-api3 .\n
+  274  ls
+  275  docker run -d -p 8924:80 --name data-api-instance2 data-api3
+  276  ls
+  277  python3 req.py
+  278  git add .
+  279  git commit -m "demo-dataset"
+  280  git push origin master
+  281  git add .
+  282  git commit -m "demo-dataset"
+  283  git push origin master
+  284  git add .
+  285  git commit -m "analysis sample add"
+  286  git push origin master
+  287  git add .
+  288  git commit -m "analysis sample add"
+  289  git push origin master
+  290  git pull origin master\n
+  291  git push origin master\n
+  292  git pull origin master\n
+  293  <h5 class="card-title">분석 히스토리 : <a href="https://github.com/sldt-co-ltd/soldout_data_api/blob/master/soldout_basket_analysis_sample.ipynb">솔드아웃 구매 데이터 분석 샘플</a> </h5>\n            <h5 class="card-title">러닝데이터 적용 : <a href="https://sldt.atlassian.net/browse/SYS-2011?atlOrigin=eyJpIjoiNjE0OTBmNWYxZmU0NDBhNWJiZTIwOGY0NTRmN2I4NTciLCJwIjoiaiJ9">하이퍼파라미터 조정</a></h5>
+  294  git config pull.rebase false\n
+  295  git pull origin master\n
+  296  git commit -m "analysis sample add"
+  297  git add .
+  298  git commit -m "analysis sample add"
+  299  git pull origin master\n
+  300  git add .
+  301  git commit -m "analysis sample add"
+  302  git pull origin master\n
+  303  git push origin master\n
+  304  ls
+  305  docker build -t data-api .\n
+  306  docker run -d -p 8924:80 --name data-api-instance data-api
+  307  ping standby.soldout.co.kr
+  308  ping standby-www.soldout.co.kr
+  309  ping soldout.co.kr
+  310  ping www.soldout.co.kr
+  311  ping soldout.co.kr
+  312  ping www.soldout.co.kr
+  313  ping soldout.co.kr
+  314  ping www.soldout.co.kr
+  315  python3
+  316  python3 test.py
+  317  ls
+  318  ㅣㄴ
+  319  ls
+  320  docker-compose up -d\n
+  321  python3 req.py
+  322  ping api-sec.soldout.co.kr
+  323  ls
+  324  cd data
+  325  ls
+  326  cd data
+  327  ls
+  328  python3 req.py
+  329  pip3 install requests
+  330  python3 req.py
+  331  history\n
+  332  history | grep push\n
+  333  history | grep docker\n
+  334  docker-compose up -d\n
+  335  cd /usr/
+  336  ls
+  337  cd lib/ls
+  338  cd lib
+  339  ls
+  340  cd /
+  341  ls
+  342  cd ~
+  343  ls
+  344  docker ps
+  345  docker exec -it 10b7c53184b2 bash
+  346  ls
+  347  cd db_audit
+  348  docker build -t mariadb-audit-log .
+  349  docker run -d --name mariadb-audit-log-container -p 3306:3306 mariadb-audit-log\n
+  350  docker build -t mariadb-audit-log .
+  351  docker run -d --name mariadb-audit-log-container -p 3306:3306 mariadb-audit-log\n
+  352  docker build -t mariadb-audit-log .
+  353  docker run -d --name mariadb-audit-log-container -p 3306:3306 mariadb-audit-log\n
+  354  docker run -d --name mariadb-audit-log-container -p 33306:3306 mariadb-audit-log\n
+  355  docker build -t mysql-audit-log .
+  356  docker run -d --name mysql-audit-log-container -p 3306:3306 mysql-audit-log
+  357  docker build -t mysql-audit-log .
+  358  docker run -d --name mysql-audit-log-container -p 3306:3306 mysql-audit-log
+  359  mysql
+  360  cd /usr
+  361  ls
+  362  cd lib
+  363  ls
+  364  whereis mysql
+  365  cd /opt/homebrew/
+  366  ls
+  367  cd /opt/homebrew/share
+  368  ls
+  369  cd mysql
+  370  ls
+  371  cd korean
+  372  ls
+  373  cd ..
+  374  ls
+  375  pwd
+  376  cd ..
+  377  ls
+  378  cd man
+  379  ls
+  380  cd man1
+  381  ls
+  382  cd /usr
+  383  ls
+  384  cd cubus/
+  385  ls
+  386  cd /
+  387  ls
+  388  cd Users
+  389  ls
+  390  cd cubus/cubus
+  391  ls
+  392  cd git
+  393  ls
+  394  cd Infra-script
+  395  ls
+  396  cd db_audit
+  397  ls
+  398  docker build -t mysql-audit-log .
+  399  docker run -d --name mysql-audit-log-container -p 3306:3306 mysql-audit-log
+  400  docker build -t mysql-audit-log .
+  401  docker run -d --name mysql-audit-log-container -p 3306:3306 mysql-audit-log
+  402  docker build -t mysql-audit-log .
+  403  docker run -d --name mysql-audit-log-container -p 3306:3306 mysql-audit-log
+  404  ls
+  405  docker-compose up -d\n
+  406  ls
+  407  python3 res.py
+  408  ls
+  409  sudo -i
+  410  ping event.soldout.co.kr
+  411  curl https://event.soldout.co.kr
+  412  ls
+  413  brew tap turbot/tap
+  414  brew install steampipe
+  415  steampipe
+  416  brew uninstall steampipe
+  417  steampipe
+  418  git clone https://github.com/turbot/steampipe\ncd steampipe
+  419  ls
+  420  make
+  421  go
+  422  make
+  423  go
+  424  go version
+  425  go
+  426  go version
+  427  make
+  428  steampipe -v
+  429  ㅣㄴ
+  430  ls
+  431  sudo make
+  432  steampipe -v
+  433  steampipe service start --foreground --dashboard --dashboard-listen=network
+  434  history
+  435  steampipe plugin install azure
+  436  steampipe plugin install azuread
+  437  mkdir dashboards\ncd dashboards\npowerpipe mod init\npowerpipe mod install github.com/turbot/steampipe-mod-azure-insights
+  438  brew install turbot/tap/powerpipe
+  439  powerpipe mod init\npowerpipe mod install github.com/turbot/steampipe-mod-azure-insights
+  440  powerpipe mod init\npowerpipe mod install github.com/turbot/steampipe-mod-azure-compliance
+  441  powerpipe mod install github.com/turbot/steampipe-mod-azure-compliance
+  442  powerpipe mod init\npowerpipe mod install github.com/turbot/steampipe-mod-azure-insights\npowerpipe mod install github.com/turbot/steampipe-mod-azure-compliance\n
+  443  cd ..
+  444  steampipe service start --foreground --dashboard --dashboard-listen=network
+  445  cd dashboards
+  446  steampipe service start --foreground --dashboard --dashboard-listen=network
+  447  steampipe service start
+  448  powerpipe server
+  449  powerpipe mod install github.com/turbot/steampipe-mod-azure-insights\npowerpipe mod install github.com/turbot/steampipe-mod-azure-compliance
+  450  powerpipe server
+  451  env
+  452  steampipe
+  453  steampipe query "keyvault_purge_protection_enabled"
+  454  query "keyvault_purge_protection_enabled" {\n  sql = <<-EOQ\n    select\n      kv.id as resource,\n      case\n        when purge_protection_enabled then 'ok'\n        else 'alarm'\n      end as status,\n      case\n        when purge_protection_enabled then name || ' purge protection enabled.'\n        else name || ' purge protection disabled.'\n      end as reason\n      ${local.tag_dimensions_sql}\n      ${replace(local.common_dimensions_qualifier_sql, "__QUALIFIER__", "kv.")}\n      ${replace(local.common_dimensions_qualifier_subscription_sql, "__QUALIFIER__", "sub.")}\n    from\n      azure_key_vault as kv,\n      azure_subscription as sub\n    where\n      sub.subscription_id = kv.subscription_id;\n  EOQ\n}\n\n\nexit\nexit\nls\npwd
+  455  steampipe query "keyvault_purge_protection_enabled" {\n  sql = <<-EOQ\n    select\n      kv.id as resource,\n      case\n        when purge_protection_enabled then 'ok'\n        else 'alarm'\n      end as status,\n      case\n        when purge_protection_enabled then name || ' purge protection enabled.'\n        else name || ' purge protection disabled.'\n      end as reason\n      ${local.tag_dimensions_sql}\n      ${replace(local.common_dimensions_qualifier_sql, "__QUALIFIER__", "kv.")}\n      ${replace(local.common_dimensions_qualifier_subscription_sql, "__QUALIFIER__", "sub.")}\n    from\n      azure_key_vault as kv,\n      azure_subscription as sub\n    where\n      sub.subscription_id = kv.subscription_id;\n  EOQ\n}\n\n\n\nquery "keyvault_purge_protection_enabled" {\n  sql = <<-EOQ\n    select\n      kv.id as resource,\n      case\n        when purge_protection_enabled then 'ok'\n        else 'alarm'\n      end as status,\n      case\n        when purge_protection_enabled then name || ' purge protection enabled.'\n        else name || ' purge protection disabled.'\n      end as reason\n      ${local.tag_dimensions_sql}\n      ${replace(local.common_dimensions_qualifier_sql, "__QUALIFIER__", "kv.")}\n      ${replace(local.common_dimensions_qualifier_subscription_sql, "__QUALIFIER__", "sub.")}\n    from\n      azure_key_vault as kv,\n      azure_subscription as sub\n    where\n      sub.subscription_id = kv.subscription_id;\n  EOQ\n}\nc
+  456  select * from hackernews_new limit 10
+  457  steampipe=> select * from hackernews_new limit 10
+  458  steampipe select\n  name,\n  id,\n  soft_delete_enabled,\n  soft_delete_retention_in_days\nfrom\n  azure_key_vault\nwhere\n  soft_delete_enabled = 0;
+  459  steampipe query "select\n  name,\n  id,\n  soft_delete_enabled,\n  soft_delete_retention_in_days\nfrom\n  azure_key_vault\nwhere\n  soft_delete_enabled = 0;"
+  460  steampipe control "keyvault_key_expiration_set" {\n  title       = "Key Vault keys should have an expiration date"\n  description = "Cryptographic keys should have a defined expiration date and not be permanent. Keys that are valid forever provide a potential attacker with more time to compromise the key. It is a recommended security practice to set expiration dates on cryptographic keys."\n  query       = query.keyvault_key_expiration_set\n\n  tags = merge(local.regulatory_compliance_keyvault_common_tags, {\n    nist_sp_800_53_rev_5 = "true"\n  })\n}
+  461  steampipe query
+  462  ls
+  463  cat select
+  464  cd steampipe
+  465  ls
+  466  ㅣㄴ
+  467  steampipe query
+  468  steampipe control
+  469  steampipe --help
+  470  steampipe query "select * from azure_key_vault"
+  471  steampipe query "select * from bastion_host"
+  472  steampipe query "select * from azure_bastion_host"
+  473  steampipe query "select * from azure_key_vault" .output json
+  474  ls
+  475  steampipe .output json
+  476  steampipe --help
+  477  steampipe query "select * from azure_key_vault" --export json
+  478  steampipe query "select * from azure_key_vault" --export=json
+  479  steampipe query "select * from azure_key_vault" --export
+  480  steampipe check
+  481  steampipe check all
+  482  steampipe check all --export=json
+  483  steampipe query "select * from azure_key_vault" --output json
+  484  ls
+  485  steampipe query "select * from azure_key_vault" --output json > js.json
+  486  history
+  487  steampipe query "select * from azure_key_vault"
+  488  steampipe query "select name from azure_key_vault" 
+  489  steampipe query "select name,vault_uri from azure_key_vault" 
+  490  steampipe query "select name,vault_uri from azure_key_vault" --output json > js2.json
+  491  steampipe query "select\n  name,\n  access_tier,\n  sku_name,\n  resource_group\nfrom\n  azure_storage_account;"
+  492  steampipe query "select\n  name,\n  access_tier,\n  sku_name,\n  resource_group\nfrom\n  azure_storage_account;" --output json
+  493  steampipe query "select\n  name,\n  access_tier,\n  sku_name,\n  resource_group\nfrom\n  azure_storage_account;" --output csv
+  494  select name, disk_state from azure_compute_disk where disk_state = 'Unattached'
+  495  steampipe query "select name, disk_state from azure_compute_disk where disk_state = 'Unattached'"
+  496  pwd
+  497  ls
+  498  cd steampipe
+  499  ls
+  500  cd dashboards
+  501  ls
+  502  cd ..
+  503  ls
+  504  git clone https://github.com/turbot/steampipe-plugin-azure.git\ncd steampipe-plugin-azure
+  505  ls
+  506  make
+  507  ls
+  508  cp config/* ~/.steampipe/config\nvi ~/.steampipe/config/azure.spc
+  509  ls
+  510  steampipe query
+  511  ls
+  512  pwd
+  513  ㅣㄴ
+  514  ls
+  515  cd ..
+  516  ls
+  517  cd plugin
+  518  ls
+  519  go main.go
+  520  go run main.go
+  521  cd ..
+  522  ls
+  523  cd steampipe-plugin-azure
+  524  ls
+  525  go run main.go
+  526  cd ..
+  527  ls
+  528  steampipe benchmark
+  529  steampipe --help
+  530  steampipe dashboard
+  531  steampipe query "sql_server_azure_ad_authentication_enabled"
+  532  steampipe query "    with sever_with_ad_admin as (\n      select\n        distinct a.id\n      from\n        azure_sql_server as a,\n        jsonb_array_elements(server_azure_ad_administrator) as ad_admin\n      where\n        ad_admin ->> 'type' = 'Microsoft.Sql/servers/administrators'\n    )\n    select\n      a.id as resource,\n      case\n        when s.id is not null then 'ok'\n        else 'alarm'\n      end as status,\n      case\n        when s.id is not null then a.name || ' azure AD authentication enabled.'\n        else a.name || ' azure AD authentication disabled.'\n      end as reason\n      ${local.tag_dimensions_sql}\n      ${replace(local.common_dimensions_qualifier_sql, "__QUALIFIER__", "a.")}\n      ${replace(local.common_dimensions_qualifier_subscription_sql, "__QUALIFIER__", "sub.")}\n    from\n      azure_sql_server as a\n      left join sever_with_ad_admin as s on a.id = s.id,\n      azure_subscription as sub\n    where\n      sub.subscription_id = a.subscription_id;sql_server_azure_ad_authentication_enabled"
+  533  steampipe query
+  534  ls
+  535  docker-compose up -d\n
+  536  ls
+  537  cd ..
+  538  ls
+  539  docker-compose up -d\n
+  540  ls
+  541  docker-compose up -d .\n
+  542  docker build -t steampipe .
+  543  docker-compose up -d .\n
+  544  docker-compose up -d \n
+  545  docker build -t steampipe .
+  546  docker run\n
+  547  history
+  548  steampipe service start --foreground --dashboard --dashboard-listen=network
+  549  history
+  550  docker build -t steampipe .
+  551  docker run -d --name steampipe -p 9033:9033 
+  552  docker run -d --name steampipe -p 9033:9033 steampipe
+  553  docker run -d --name steampipe -p 9133:9033 steampipe
+  554  docker build -t steampipe .
+  555  docker run -d --name steampipe -p 9133:9033 steampipe
+  556  history |grep steampipe
+  557  docker build -t steampipe .
+  558  docker run -d --name steampipe -p 9133:9033 steampipe
+  559  az ad app credential reset --id
+  560  cd ..
+  561  ls
+  562  docker build -t steampipe-azure .
+  563  ls
+  564  cd steampipe
+  565  ls
+  566  docker build -t steampipe-azure .
+  567  docker run -p 9194:9194 steampipe-azure
+  568  docker build -t steampipe-azure .
+  569  docker run -p 9194:9194 steampipe-azure
+  570  docker build -t steampipe-azure .
+  571  docker run -p 9194:9194 steampipe-azure
+  572  docker build -t steampipe-azure .
+  573  docker run -p 9194:9194 steampipe-azure
+  574  docker build -t steampipe-azure .
+  575  docker run -p 9194:9194 steampipe-azure
+  576  docker build -t steampipe-azure .
+  577  docker run -p 9194:9194 steampipe-azure
+  578  powerpipe server
+  579  ps -ef | grep power
+  580  kill -9 9182
+  581  ps -ef | grep power
+  582  powerpipe server
+  583  steampipe service start --foreground --dashboard --dashboard-listen=network
+  584  cd ..
+  585  ls
+  586  steampipe service start --foreground --dashboard --dashboard-listen=network
+  587  cd dashboards
+  588  ls
+  589  ls -al
+  590  history
+  591  steampipe service start
+  592  powerpipe server
+  593  powerpipe mod install github.com/turbot/steampipe-mod-azure-insights\npowerpipe mod install github.com/turbot/steampipe-mod-azure-compliance
+  594  powerpipe server
+  595  ls
+  596  cd /Users
+  597  ls
+  598  cd cubus
+  599  ls
+  600  cd cubus
+  601  ls
+  602  cd key
+  603  ls
+  604  sudo -i
+  605  ls
+  606  sudo -i
+  607  brew update 
+  608  brew install grafana
+  609  brew services start grafana
+  610  grafana-cli
+  611  grafana-cli plugins install agenty-flowcharting-panel\n
+  612  sudo grafana-cli plugins install agenty-flowcharting-panel\n
+  613  brew services restart grafana
+  614  brew services stop grafana
+  615  brew services start grafana
+  616  ls
+  617  cd ..
+  618  ls
+  619  brew services stop grafana
+  620  ls
+  621  git clone https://github.com/minjoon-koo/CSPM_SLDT.git
+  622  ls
+  623  cd CSPM_SLDT
+  624  ls
+  625  cd worker
+  626  go get github.com/gofiber/fiber/v3
+  627  go get 
+  628  go install get
+  629  go mod init
+  630  go mod init worker
+  631  go get github.com/gofiber/fiber/v3
+  632  go run server.go
+  633  ls
+  634  cat go.mod
+  635  ls
+  636  mkdir temp
+  637  go mod init worker
+  638  go mod init worker1
+  639  ls
+  640  cd temp
+  641  ls
+  642  go mod init worker
+  643  cat go.mod
+  644  ls
+  645  go get github.com/gofiber/fiber/v3
+  646  ls
+  647  cat go.mod
+  648  cat go sum
+  649  cat go.sum
+  650  ls
+  651  cd ..
+  652  ls
+  653  cd ..
+  654  ls
+  655  cd /Users/cubus/cubus/git/CSPM_SLDT
+  656  ls
+  657  cd worker
+  658  ls
+  659  go run server.go
+  660  ls
+  661  go mod init rest_api
+  662  go run main.go
+  663  go get github.com/gofiber/fiber/v3
+  664  go run main.go
+  665  lsof -i :3000
+  666  kill -9 94157 
+  667  go run main.go
+  668  go get github.com/joho/godotenv
+  669  go get -u gorm.io/gorm
+  670  git
+  671  git init
+  672  ls
+  673  git status
+  674  git
+  675  git add .
+  676  git commit =m "Go_Fiber & REST API study"
+  677  git commit -m "Go_Fiber & REST API study"
+  678  git remote add origin https://github.com/minjoon-koo/go_rest_api_exem.git
+  679  git push -u origin master
+  680  git branch\n
+  681  git push -u origin main
+  682  git branch\n
+  683  go ver
+  684  go version
+  685  go get gorm.io/gorm/mysql
+  686  go get gorm.io/driver/mysql
+  687  cd testDB
+  688  docker-compose up -d\n
+  689  go run main.go
+  690  go run c2_db_conn_main.go
+  691  git add .
+  692  git commit -m "Go_Fiber & REST API study"
+  693  git push -u origin main
+  694  ls
+  695  go run c3_models_stucts_main.go
+  696  go run c2_db_conn_main.go
+  697  go run c3_models_stucts_main.go
+  698  go run c4_Config_db_conn_main.go
+  699  ls
+  700  cp c4_Config_db_conn_main.go c5_using_route_main.go
+  701  rm -rf c5_using_route_main.go
+  702  run c5_using_route_main.go
+  703  go run c5_using_route_main.go
+  704  kill -9 45582\n
+  705  go run c5_using_route_main.go
+  706  go run c5_using_controller_main.go
+  707  kill -9 64299\n
+  708  go run c5_using_controller_main.go
+  709  ls
+  710  go run c5_using_route_main.go
+  711  kill -9 68846
+  712  go run c5_using_route_main.go
+  713  kill -9 69271
+  714  go run c5_using_route_main.go
+  715  kill -9 69674
+  716  go run c5_using_route_main.go
+  717  kill -9 69948
+  718  go run c5_using_route_main.go
+  719  kill -9 70292
+  720  go run c5_using_route_main.go
+  721  kill -9 74232
+  722  go run c5_using_route_main.go
+  723  git commit -m "Go_Fiber & REST API study 5ing"
+  724  git push -u origin main
+  725  go mod init rest_api
+  726  go get github.com/gofiber/fiber/v2
+  727  go run chap1_fiber_app_main.go
+  728  kill -9 3527
+  729  > go get github.com/joho/godotenv
+  730  go get github.com/joho/godotenv
+  731  go get -u gorm.io/gorm
+  732  go get gorm.io/driver/mysql
+  733  go run chap2_db_connection_main.go
+  734  go run chap3_models_stucts_main.go
+  735  ru run chap4_config_db_connection_main.go
+  736  go run chap4_config_db_connection_main.go
+  737  go run chap5_using_controller_main.go
+  738  lsof -i :30001\n
+  739  kill -9 74387 
+  740  kill -9 64489
+  741  kill -9 796
+  742  go run chap5_using_controller_main.go
+  743  kill -9 28709
+  744  go run chap5_using_controller_main.go
+  745  kill -9 31049 
+  746  go run chap5_using_controller_main.go
+  747  kill -9 45836
+  748  go run chap5_using_controller_main.go
+  749  ls
+  750  go mod init rest_api
+  751  go get gorm.io/driver/mysql
+  752  go get github.com/joho/godotenv
+  753  go get github.com/gofiber/fiber/v2
+  754  go build -o start chap5_using_controller_main.go
+  755  git commit -m "Go_Fiber & REST API study controller using"
+  756  git add .
+  757  git commit -m "Go_Fiber & REST API study controller using"
+  758  git push -u origin main
+  759  git add .
+  760  git commit -m "Go_Fiber & REST API study controller using"
+  761  git push -u origin main
+  762  go run chap5_using_controller_main.go
+  763  kill -9 13420
+  764  go get github.com/golang-jwt/jwt
+  765  go run chap5_using_controller_main.go
+  766  git add .
+  767  git commit -m "Go_Fiber & REST API study jwt token create"
+  768  git push -u origin main
+  769  git add .
+  770  git commit -m "Go_Fiber & REST API study jwt token create"
+  771  git push -u origin main
+  772  cd worker
+  773  ls
+  774  go mod init worker
+  775  go get github.com/gofiber/fiber/v2
+  776  go get github.com/joho/godotenv
+  777  go get -u gorm.io/gorm
+  778  go get gorm.io/driver/mysql
+  779  go get github.com/golang-jwt/jwt
+  780  git clone https://github.com/turbot/steampipe
+  781  ls
+  782  rm -rf steampipe
+  783  ls
+  784  cd ..
+  785  ls
+  786  rm -rf steampipe
+  787  git clone https://github.com/turbot/steampipe
+  788  ls
+  789  cd steampipe
+  790  sudo make
+  791  ls
+  792  cd ..
+  793  steampie query "select\n  name,\n  user_principal_name as username,\n  created_at,\n  account_enabled,\n  authentication_type\nfrom\n  azure_ad_user"
+  794  steampipe query "select\n  name,\n  user_principal_name as username,\n  created_at,\n  account_enabled,\n  authentication_type\nfrom\n  azure_ad_user"
+  795  steampipe query "select name, user_principal_name as username, created_at, account_enabled, authentication_type from azure_ad_user" --output json\n
+  796  steampipe query "select * from azure_ad_user" --output json\n
+  797  steampipe query "select display_name, user_principal_name as username, created_date_time as created_at, account_enabled, authentication_methods from azuread_user" --output json\n
+  798  steampipe query "select * from azuread_user" --output json\n
+  799  az login
+  800  steampipe query "select * from azuread_user" --output json\n
+  801  ls
+  802  steampipe query "select * from azuread_user" --output json >> temp.json\n
+  803  steampipe -h
+  804  steampipe -help
+  805  steampipe query "select * from azuread_user where display_name = '구민준'"
+  806  steampipe query "select * from azuread_user where id = '9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  807  steampipe query "select\n  ra.principal_id,\n  ra.role_definition_name,\n  ra.scope\nfrom\n  azure_role_assignment ra\nwhere\n  ra.principal_id = '9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  808  steampipe query "select * from azure_role_assignment ra where\n  ra.principal_id = '9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  809  steampipe query "select\n  ra.principal_id,\n  ra.role_definition_name,\n  ra.scope\nfrom\n  azure_role_assignment ra\nwhere\n  ra.principal_id = '9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  810  steampipe query "describe azure_role_assignment"\n
+  811  select\n  principal_id,\n  role_definition_id,\n  scope\nfrom\n  azure_role_assignment\nwhere\n  principal_id = '9fdc201a-041b-4291-af8c-f5d5d10e96f0'\n
+  812  steampipe query "select\n  principal_id,\n  role_definition_id,\n  scope\nfrom\n  azure_role_assignment\nwhere\n  principal_id = '9fdc201a-041b-4291-af8c-f5d5d10e96f0'"\n
+  813  steampipe query "select display_name,mail,department from azuread_user"
+  814  steampipe query "select display_name, mail, department, member_of from azuread_user"
+  815  steampipe query "select display_name, mail, department, member_of from azuread_user where id = '9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  816  steampipe query "select display_name, mail, department, member_of from azuread_user where id like '9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  817  steampipe query "select display_name, mail, department, member_of from azuread_user where id=select display_name, mail, department, member_of from azuread_user where id = '9fdc201a-041b-4291-af8"
+  818  steampipe query "select * from azuread_user\n"
+  819  steampipe query "select * from azuread_user where 1=1"\n"\n\n"
+  820  steampipe query "select * from azuread_user where id=9fdc201a-041b-4291-af8c-f5d5d10e96f0"\n"\n\n"
+  821  steampipe query "select * from azuread_user where id=9fdc201a-041b-4291-af8c-f5d5d10e96f0"
+  822  steampipe query "select * from azuread_user where id='9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  823  steampipe query "select display_name, mail, department, member_of from azuread_user where id ='9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  824  steampipe query "select display_name, mail, department, member_of from azuread_user where id='9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  825  steampipe query "select * from azuread_user where id='9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  826  steampipe query "select display_name from azuread_user where id='9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  827  steampipe query "select display_name, mail, department from azuread_user where id='9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  828  steampipe query "select display_name, mail, department member_of from azuread_user where id='9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  829  steampipe query "select display_name, mail, department, member_of from azuread_user where id='9fdc201a-041b-4291-af8c-f5d5d10e96f0'"
+  830  steampipe query "select display_name, id from azuread_group"\n
+  831  steampipe query "select * from azuread_group"\n
+  832  steampipe query "select * from azuread_group where id='cff7ab5a-e77c-4400-83f4-1cdac9450e54'"\n
+  833  steampipe query "select display_name, id , description from azuread_group"\n
+  834  steampipe query "select display_name, id , description, classification from azuread_group"\n
+  835  steampipe query "select display_name, id , description, created_date_time, expiration_date_time from azuread_group"\n
+  836  go run worker/main.go
+  837  cd worker
+  838  go run main.go
+  839  kill -9 13420
+  840  cd databases
+  841  docker-compose up -d\n
+  842  go run worker/main.go
+  843  ls
+  844  go run main.go
+  845  lsof -i :30001\n
+  846  lsof -i :3000\n
+  847  kill -9 82589
+  848  lsof -i :3000\n
+  849  go run main.go
+  850  kill -9 87420 
+  851  steampipe query "select display_name, id , description, created_date_time, expiration_date_time from azuread_group"\n
+  852  steampipe query "select display_name, id , description, created_date_time, expiration_date_time from azuread_group" --output json\n
+  853  type AdGroup struct {\n\tDisplayName        string `json:"display_name"`\n\tId                 string `json:"id"`\n\tDescription        string `json:"description"`\n\tCreateDateTime     string `json:"create_date_time"`\n\tExpirationDateTime string `json:"expiration_date_time"`\n}
+  854  cd worker
+  855  go run sql_test.go
+  856  go run sql.go
+  857  steampipe query "select display_name, id , description, created_date_time, expiration_date_time from azuread_group"\n
+  858  go run main.go
+  859  kill -9 37782
+  860  go run sql.go
+  861  go run main.go
+  862  lsof -i :3000\n
+  863  go run main.go
+  864  cd worker
+  865  cd ..
+  866  cd worker
+  867  go run main.go
+  868  steampipe query "select display_name, id , description, created_date_time, expiration_date_time from azuread_group"\n
+  869  go run sql.go
+  870  go run main.go
+  871  go run sql.go
+  872  go run main.go
+  873  go run sql.go
+  874  go run main.go
+  875  steampipe query "select display_name, id , description, created_date_time, expiration_date_time from azuread_group"\n
+  876  steampipe query "select * from azuread_group"\n
+  877  go run main.go
+  878  go run sql.go\n
+  879  go run main.go
+  880  go run sql.go\n
+  881  steampipe query "select display_name, mail, department, member_of from azuread_user"
+  882  steampipe query "select display_name, mail, department, member_of from azuread_user" --output json
+  883  go run sql.go\n
+  884  lsof -i :3000\n
+  885  go run sql.go\n
+  886  go run sql.go >> temp.txt\n
+  887  go run main.go
+  888  go run sql.go
+  889  go run main.go
+  890  kill -9  1371
+  891  go run main.go
+  892  kill -9 1699
+  893  go run main.go
+  894  kill -9 4660
+  895  go run main.go
+  896  kill -9 5311
+  897  go run main.go
+  898  kill -9 5426
+  899  go run main.go
+  900  go run sql.go
+  901  kill -9 6453
+  902  go run sql.go
+  903  go run main.go
+  904  kill -9 9332
+  905  go run main.go
+  906  go run sql.go
+  907  go run main.go
+  908  kill -9 9332
+  909  kill -9 9504
+  910  go run main.go
+  911  go run sql.go
+  912  kill -9 15288
+  913  go run sql.go
+  914  go run main.go
+  915  kill -9 15870
+  916  go run main.go
+  917  kill -9 16143
+  918  go run main.go
+  919  lsof -i :3000\n
+  920  kill -9 16427
+  921  lsof -i :3000\n
+  922  go run main.go
+  923  lsof -i :3000\n
+  924  kill -9 94793
+  925  go run main.go
+  926  kill -9 98190
+  927  go run main.go
+  928  kill -9 98442
+  929  go run main.go
+  930  kill -9 99330
+  931  go run main.go
+  932  kill -9 99527
+  933  go run main.go
+  934  kill -9 99867
+  935  go run main.go
+  936  kill -9 227
+  937  go run main.go
+  938  lsof -i :3000\n
+  939  kill -9 3266
+  940  go run main.go
+  941  lsof -i :3000\n
+  942  kill -9 3693
+  943  go run main.go
+  944  lsof -i :3000\n
+  945  kill -9 4218
+  946  go run main.go
+  947  lsof -i :3000\n
+  948  kill -9 4420
+  949  go run main.go
+  950  lsof -i :3000\n
+  951  kill -9 52140
+  952  go run main.go
+  953  kill -9 52502
+  954  go run main.go
+  955  lsof
+  956  lsof -i :3000\n
+  957  kill -9 53526
+  958  go run main.go
+  959  lsof -i :3000\n
+  960  kill -9 54103
+  961  go run main.go
+  962  lsof -i :3000\n
+  963  kill -9 56096
+  964  go run main.go
+  965  lsof -i :3000\n
+  966  go run main.go
+  967  steampipe query "select * from azure_directory"
+  968  steampipe query
+  969  steampipe query "select * from azure_Directory_Role"
+  970  steampipe query " select * from azuread_directory_role\n"
+  971  steampipe query " select * from azuread_directory_role" --output json
+  972  steampipe query " select * from azuread_directory_role" --output json >> role.json
+  973  steampipe query " select id, display_name from azuread_directory_role" --output json >> role.json
+  974  steampipe query " select * from azure_role_assignment"
+  975  steampipe query " select * from azure_role_assignment" --output json >> role.json
+  976  steampipe query " select * from azure_role_assignment" --output json 
+  977  steampipe query "select\n  name,\n  sg -> 'name' as sg_name,\n  sg -> 'properties' ->> 'access' as access,\n  sg -> 'properties' ->> 'description' as description,\n  sg -> 'properties' ->> 'destinationPortRange' as destination_port_range,\n  sg -> 'properties' ->> 'direction' as direction,\n  sg -> 'properties' ->> 'priority' as priority,\n  sg -> 'properties' ->> 'sourcePortRange' as source_port_range,\n  sg -> 'properties' ->> 'protocol' as protocol\nfrom\n  azure_network_security_group\n  cross join jsonb_array_elements(default_security_rules) as sg;"
+  978  steampipe query " select * from azure_role_assignment" --output json > role.json
+  979  steampipe query " select id, display_name from azuread_directory_role" --output json > role.json
+  980  steampipe query " select * from azuread_directory_role" --output json 
+  981  lsof -i :3000\n
+  982  kill -9 58062
+  983  go run main.go
+  984  kill -9 7122
+  985  go run main.go
+  986  kill -9 7342
+  987  go run sql.go
+  988  go run main.go
+  989  kill -9 55867
+  990  go run main.go
+  991  lsof -i :3000\n
+  992  kill -9 58545
+  993  go run main.go
+  994  lsof -i :3000\n
+  995  kill -9 64430
+  996  go run main.go
+  997  lsof -i :3000\n
+  998  go run main.go
+  999  sudo -i
+ 1000  lsof -i :3000\n
+ 1001  kill -9 27341
+ 1002  go run main.go
+ 1003  lsof -i :3000\n
+ 1004  kill -9 41644
+ 1005  go run main.go
+ 1006  lsof -i :3000\n
+ 1007  kill -9 41970
+ 1008  go run main.go
+ 1009  lsof -i :3000\n
+ 1010  go run main.go
+ 1011  history | grep git
+ 1012  ls
+ 1013  cd ..
+ 1014  ls
+ 1015  git ls
+ 1016  ls
+ 1017  mv readme readme.md
+ 1018  ls
+ 1019  git init
+ 1020  git status
+ 1021  git add .
+ 1022  git repogit status
+ 1023  git status
+ 1024  ㅣㄴ
+ 1025  ls
+ 1026  ls -al
+ 1027  rm -rf .git
+ 1028  git init\n
+ 1029  git add .\n
+ 1030  ls
+ 1031  cd steampipe
+ 1032  ls -al
+ 1033  rm -rf .git
+ 1034  cd ..
+ 1035  ls
+ 1036  git remote add origin cspmWorker\n
+ 1037  git push -u origin master\n
+ 1038  git remote add origin https://github.com/minjoon-koo/CSPM_SLDT\n
+ 1039  git push -u origin master\n
+ 1040  git remote add origin https://github.com/minjoon-koo/cspmWorker\n
+ 1041  rm -rf .git
+ 1042  git init\n
+ 1043  git add .\n
+ 1044  git commit -m "cspmWorker:IAM"\n
+ 1045  git remote add origin https://github.com/minjoon-koo/CSPM_SLDT
+ 1046  git push -u origin master\n
+ 1047  git push -u origin main\n
+ 1048  ㅣㄴ
+ 1049  ls -al
+ 1050  rm -rf .git
+ 1051  ls
+ 1052  ls -al
+ 1053  git init
+ 1054  git remote add origin https://github.com/minjoon-koo/CSPM_SLDT
+ 1055  git pull origin master\n
+ 1056  git pull origin main\n
+ 1057  git checkout -b main
+ 1058  git add .
+ 1059  git commit -m "cspmWorker:IAM"\n
+ 1060  git push origin main
+ 1061  git pull origin develop\n
+ 1062  git add .
+ 1063  git commit -m "cspmWorker:IAM"\n
+ 1064  git push origin develop
+ 1065  rm -rf .git
+ 1066  ls
+ 1067  git init 
+ 1068  git pull origin main
+ 1069  git remote add origin https://github.com/minjoon-koo/cspm_worker.git
+ 1070  git pull origin main
+ 1071  git pull origin master
+ 1072  git branch\n
+ 1073  git branch -M main\n
+ 1074  git branch -b main\n
+ 1075  git checkout -b main\n
+ 1076  git pull origin main
+ 1077  rm -rf .git
+ 1078  git init
+ 1079  git remote add origin https://github.com/minjoon-koo/cspm_worker.git
+ 1080  git pull origin main
+ 1081  git branch -b main\n
+ 1082  git bransh -M mian\n
+ 1083  git branch -M mian\n
+ 1084  git push -u origin main\n
+ 1085  git add .
+ 1086  git commit -m "cspmWorker:IAM"\n
+ 1087  git push -u origin main\n
+ 1088  git pull origin main
+ 1089  git push -u origin main 
+ 1090  git pull origin main
+ 1091  git push origin main
+ 1092  cd /Users/cubus/cubus/git/
+ 1093  mkdir cspm
+ 1094  git clone https://github.com/minjoon-koo/cspm_worker.git
+ 1095  ls
+ 1096  rm -rf cSPM
+ 1097  ls
+ 1098  cd cspm_worker
+ 1099  ls
+ 1100  cp ../sldt_cspm/steampipe ./steampipe
+ 1101  cp -r ../sldt_cspm/steampipe ./steampipe
+ 1102  ls
+ 1103  vi .gitignore
+ 1104  ls
+ 1105  git add .
+ 1106  git commit -m "cspmWorker:IAM"\n
+ 1107  git push origin main
+ 1108  lsof -i :3000\n
+ 1109  cd worker
+ 1110  go run main.go
+ 1111  cd ../../sldt_cspm
+ 1112  ls
+ 1113  ls -al
+ 1114  cd worker
+ 1115  ls -al
+ 1116  cat .env
+ 1117  cd ../../cspm_worker
+ 1118  ls
+ 1119  cd worker
+ 1120  go run main.go
+ 1121  kill -9 737
+ 1122  go run main.go
+ 1123  brew services start grafana
+ 1124  lsof -i :3000\n
+ 1125  go run main.go
+ 1126  lsof -i :3000\n
+ 1127  kill -9 8007
+ 1128  kill -9 27915
+ 1129  lsof -i :3000\n
+ 1130  lsof -i :30001
+ 1131  go run main.go
+ 1132  brew services stop grafana
+ 1133  lsof -i :30001
+ 1134  kill -9 32825
+ 1135  go run main.go
+ 1136  kill -9 36359
+ 1137  go run main.go
+ 1138  brew services start grafana
+ 1139  lsof -i :30001
+ 1140  kill -9 36627
+ 1141  go run main.go
+ 1142  lsof -i :30001
+ 1143  kill -9 57948
+ 1144  go run main.go
+ 1145  ㅣㄴ
+ 1146  ls
+ 1147  git add .
+ 1148  git commit -m "cspmWorker:IAM - member_of 처리 변경"\n
+ 1149  git push origin main
+ 1150  ls
+ 1151  steampipe query "select * from azure_appliction_gateway"
+ 1152  steampipe query "select * from azure_application_gateway"
+ 1153  steampipe query "select * from azure_application_gateway" --output json
+ 1154  steampipe query
+ 1155  steampipe query "^[[200~select\n  id,\n  name,\n  listeners -> 'id' as listener_id,\n  listeners -> 'name' as listener_name,\n  jsonb_pretty(listeners -> 'properties' -> 'frontendPort') as listener_frontend_port,\n  jsonb_pretty(listeners -> 'properties' -> 'hostNames') as listener_host_names,\n  listeners -> 'properties' -> 'protocol' as listener_protocol,\n  listeners -> 'properties' -> 'requireServerNameIndication' as listener_require_server_name_indication\nfrom\n  azure_application_gateway,\n  jsonb_array_elements(http_listeners) as listeners;~"
+ 1156  ^[[200~select
+ 1157  from
+ 1158  select\n  id,\n  name,\n  listeners -> 'id' as listener_id,\n  listeners -> 'name' as listener_name,\n  jsonb_pretty(listeners -> 'properties' -> 'frontendPort') as listener_frontend_port,\n  jsonb_pretty(listeners -> 'properties' -> 'hostNames') as listener_host_names,\n  listeners -> 'properties' -> 'protocol' as listener_protocol,\n  listeners -> 'properties' -> 'requireServerNameIndication' as listener_require_server_name_indication\nfrom\n  azure_application_gateway,\n  jsonb_array_elements(http_listeners) as listeners;
+ 1159  steampipe query "select\n  id,\n  name,\n  listeners -> 'id' as listener_id,\n  listeners -> 'name' as listener_name,\n  jsonb_pretty(listeners -> 'properties' -> 'frontendPort') as listener_frontend_port,\n  jsonb_pretty(listeners -> 'properties' -> 'hostNames') as listener_host_names,\n  listeners -> 'properties' -> 'protocol' as listener_protocol,\n  listeners -> 'properties' -> 'requireServerNameIndication' as listener_require_server_name_indication\nfrom\n  azure_application_gateway,\n  jsonb_array_elements(http_listeners) as listeners;"
+ 1160  lsof -i :30001
+ 1161  kill -9 60855
+ 1162  go run main.go
+ 1163  lsof -i :30001
+ 1164  kill -9 67117
+ 1165  go run main.go
+ 1166  kill -9 74429
+ 1167  go run main.go
+ 1168  kill -9 74640
+ 1169  go run main.go
+ 1170  whereis grafana
+ 1171  cd /opt/homebrew
+ 1172  ls
+ 1173  kill -9 74735
+ 1174  go run main.go
+ 1175  kill -9 41640
+ 1176  go run main.go
+ 1177  lsof -i :30001
+ 1178  kill -9 42168
+ 1179  go run main.go
+ 1180  kill -9 42900
+ 1181  go run main.go
+ 1182  cd ~
+ 1183  ls
+ 1184  whereis grafana
+ 1185  find ./ -name grafana
+ 1186  sudo find ./ -name granfana
+ 1187  ㅣㄴ
+ 1188  ls
+ 1189  cd cubus
+ 1190  ls
+ 1191  cd 구민준
+ 1192  ls
+ 1193  cd ..
+ 1194  ls
+ 1195  cd git
+ 1196  ls
+ 1197  cd data
+ 1198  ls
+ 1199  cd ..
+ 1200  ls
+ 1201  cd ..
+ 1202  ls
+ 1203  cd ..
+ 1204  ls
+ 1205  cd /
+ 1206  ls
+ 1207  cd Applications
+ 1208  ls
+ 1209  cd ..
+ 1210  ls
+ 1211  history | grep gra
+ 1212  cd /usr/local/ls
+ 1213  cd /usr/local/
+ 1214  ls
+ 1215  brew info grafana
+ 1216  cd /opt/homebrew/etc/grafana
+ 1217  ls
+ 1218  cat grafana.ini
+ 1219  cat grafana.ini | grep DG
+ 1220  brew info grafana
+ 1221  ls
+ 1222  cd ..
+ 1223  ls
+ 1224  grep -r "DG"
+ 1225  cd ..
+ 1226  ls
+ 1227  grep -r "DG"
+ 1228  grep -r "dev-apgw"
+ 1229  cd var/lib/grafana
+ 1230  ls
+ 1231  cat grafana.db
+ 1232  ls
+ 1233  cd csv
+ 1234  ls
+ 1235  cd ..
+ 1236  ls
+ 1237  cd plugins
+ 1238  ls
+ 1239  sudo -i
+ 1240  pwd
+ 1241  ls
+ 1242  cd worker
+ 1243  ls
+ 1244  steampipe query "select * from azure_application_gateway" --output json 
+ 1245  cd ..
+ 1246  steampipe query "select * from azure_application_gateway" --output json > apgw.json
+ 1247  steampipe query "SELECT id, name, jsonb_pretty(http_listeners -> 'properties' -> 'probe') AS health_probe FROM azure_application_gateway;"\n
+ 1248  steampipe query "SELECT id, name, jsonb_pretty(listeners.value -> 'properties' -> 'probe') AS health_probe FROM azure_application_gateway, jsonb_array_elements(http_listeners) AS listeners;"\n
+ 1249  steampipe query
+ 1250  steampipe query "SELECT\nid,\nname,\nprobes\nFROM\nazure_application_gateway,\njsonb_array_elements(probes) AS probes;" > apgw.json
+ 1251  steampipe query "SELECT\nid,\nname,\nprobes\nFROM\nazure_application_gateway,\njsonb_array_elements(probes) AS probes" > temp.json
+ 1252  ls
+ 1253  steampipe query "SELECT id, name, jsonb_pretty(http_listeners -> 'properties' -> 'probe') AS health_probe FROM azure_application_gateway;"\n
+ 1254  steampipe query "SELECT\nid,\nname,\nprobes\nFROM\nazure_application_gateway,\njsonb_array_elements(probes) AS probes" > temp.json\n
+ 1255  ls
+ 1256  steampipe query "SELECT\nname,\nprobes\nFROM\nazure_application_gateway,\njsonb_array_elements(probes) AS probes" > temp.json\n
+ 1257  steampipe query "SELECT id, name, jsonb_pretty(listeners.value -> 'properties' -> 'probe') AS health_probe, jsonb_pretty(listeners.value -> 'properties') AS listener_properties FROM azure_application_gateway, jsonb_array_elements(http_listeners) AS listeners;"\n
+ 1258  steampipe query "SELECT id, name, jsonb_pretty(listeners.value -> 'properties' -> 'probe') AS health_probe, jsonb_pretty(listeners.value -> 'properties') AS listener_properties FROM azure_application_gateway, jsonb_array_elements(http_listeners) AS listeners;" > temp.json\n
+ 1259  steampipe query "SELECT id, name, jsonb_pretty(listeners.value -> 'properties' -> 'probe') AS health_probe, jsonb_pretty(listeners.value -> 'properties') AS listener_properties FROM azure_application_gateway, jsonb_array_elements(http_listeners) AS listen\n\n\n"
+ 1260  steampipe query
+ 1261  ls
+ 1262  cd steampipe
+ 1263  ls
+ 1264  cd ..
+ 1265  ls
+ 1266  cd ..
+ 1267  ls
+ 1268  cd steampipe
+ 1269  ls
+ 1270  cd steampipe
+ 1271  ls
+ 1272  cd dashboards
+ 1273  ls
+ 1274  ls -al
+ 1275  steampipe service start
+ 1276  powerpipe server
+ 1277  ls
+ 1278  steampipe query "select * from azure_network_interface" --output json > temp.json
+ 1279  steampipe query "select * from azure_network_watcher_flow_log" --output json > temp.json
+ 1280  steampipe query "SELECT id, name, jsonb_pretty(backend_address_pools) AS backend_pools, jsonb_pretty(backend_http_settings_collection) AS backend_settings FROM azure_application_gateway;"\n
+ 1281  steampipe query "SELECT id, name, jsonb_pretty(backend_address_pools) AS backend_pools, jsonb_pretty(backend_http_settings_collection) AS backend_settings FROM azure_application_gateway;" --output csv > qwer.csv\n
+ 1282  az network application-gateway show-backend-health --resource-group rg-soldout --name dev-apgw
+ 1283  az network application-gateway show-backend-health --name dev-apgw
+ 1284  az network application-gateway show-backend-health --resource-group rg-soldout --name dev-apgw
+ 1285  steampipe query
+ 1286  az network application-gateway show-backend-health --resource-group rg-soldout --name dev-apgw
+ 1287  steampipe query
+ 1288  az network application-gateway show-backend-health --resource-group rg-soldout --name dev-apgw
+ 1289  python3 mem.py
+ 1290  cd ..
+ 1291  ls
+ 1292  cd steampipe
+ 1293  ls
+ 1294  cd ..
+ 1295  ls
+ 1296  cd ..
+ 1297  ls
+ 1298  cd steampipe
+ 1299  ls
+ 1300  cd ..
+ 1301  ls
+ 1302  cd cspm_worker
+ 1303  ls
+ 1304  cd worker
+ 1305  ls
+ 1306  go run sql.go
+ 1307  steampipe query
+ 1308  steampipe query "        select\n            name,\n            probe -> 'name' as name,\n            jsonb_array_elements(probe -> 'properties' -> 'backendAddresses') ->> 'ipAddress' AS ipAddress,\n            probe -> 'id' as backend_id\n        from\n            azure_application_gateway,\n            jsonb_array_elements(backend_address_pools) as probe" --output json
+ 1309  steampipe query "        select\n            name as apgw_name,\n            probe -> 'name' as backend_name,\n            jsonb_array_elements(probe -> 'properties' -> 'backendAddresses') ->> 'ipAddress' AS ipAddress,\n            probe -> 'id' as backend_id\n        from\n            azure_application_gateway,\n            jsonb_array_elements(backend_address_pools) as probe" --output json
+ 1310  ls
+ 1311  go run sql.go
+ 1312  steampipe query "        select\n            name as apgw_name,\n            probe -> 'name' as backend_name,\n            jsonb_array_elements(probe -> 'properties' -> 'backendAddresses') ->> 'ipAddress' AS ipAddress,\n            probe -> 'id' as backend_id\n        from\n            azure_application_gateway, jsonb_array_elements(backend_address_pools) as probe" --output json
+ 1313  go run sql.go
+ 1314  lsof -i :30001
+ 1315  kill -9 43582
+ 1316  go run main.go
+ 1317  kill -9 87405
+ 1318  steampipe query
+ 1319  steampipe plugin install kubernetes
+ 1320  go run main.go
+ 1321  kill -9 65890
+ 1322  go run main.go
+ 1323  kill -9 69756
+ 1324  go run main.go
+ 1325  kill -9 73488
+ 1326  go run main.go
+ 1327  kill -9 81547
+ 1328  go run main.go
+ 1329  kill -9 81823
+ 1330  go run main.go
+ 1331  lsof -i :30001
+ 1332  kill -9 82780
+ 1333  lsof -i :30001
+ 1334  go run main.go
+ 1335  lsof -i :30001
+ 1336  kill -9 86162
+ 1337  go run main.go
+ 1338  lsof -i :30001
+ 1339  kill -9 86775
+ 1340  lsof -i :30001
+ 1341  go run main.go
+ 1342  lsof -i :30001
+ 1343  ls
+ 1344  go run main.go
+ 1345  kill -9 3594
+ 1346  go run main.go
+ 1347  kill -9 4402
+ 1348  go run main.go
+ 1349  kill -9 4685
+ 1350  go run main.go
+ 1351  kill -9 4947
+ 1352  go run main.go
+ 1353  go run sql.go
+ 1354  ls
+ 1355  cd worker
+ 1356  ls
+ 1357  go run sql.go
+ 1358  kill -9 15087
+ 1359  go run main.go
+ 1360  go run sql.go
+ 1361  go run test.go
+ 1362  go run sql.go
+ 1363  sudo -i
+ 1364  kill -9 23891
+ 1365  history | grep git
+ 1366  git add .\n
+ 1367  git commit -m "cspmWorker: update"\n
+ 1368  git push origin main\n
+ 1369  ls
+ 1370  cd ..
+ 1371  ls
+ 1372  ls -al
+ 1373  mkdir .github
+ 1374  mkdir .github/workflows
+ 1375  cp action/deploy.yml .github/workflows
+ 1376  git add .\n
+ 1377  git commit -m "cspmWorker: github action deploy"\n
+ 1378  git add .\n
+ 1379  git commit -m "cspmWorker: github action deploy"\n
+ 1380  git push origin main\n
+ 1381  git add .\n
+ 1382  git commit -m "cspmWorker: github action to use node.js 20"\n
+ 1383  git push origin main\n
+ 1384  git add .\n
+ 1385  git commit -m "cspmWorker: github action to use node.js 20"\n
+ 1386  git push origin main\n
+ 1387  git add .\n
+ 1388  git commit -m "cspmWorker: github action to use node.js 20"\n
+ 1389  git push origin main\n
+ 1390  git add .\n
+ 1391  git commit -m "cspmWorker: github action to use node.js 20"\n
+ 1392  git push origin main\n
+ 1393  git add .\n
+ 1394  git commit -m "cspmWorker: github action to use node.js 20"\n
+ 1395  git push origin main\n
+ 1396  git add .\n
+ 1397  git commit -m "cspmWorker: github action script update"\n
+ 1398  git push origin main\n
+ 1399  go run /app/worker/main.go &
+ 1400  git add .\n
+ 1401  git commit -m "cspmWorker: github action script update"\n
+ 1402  git push origin main\n
+ 1403  git add .\n
+ 1404  git commit -m "cspmWorker: github action script update"\n
+ 1405  git push origin main\n
+ 1406  sudo -i
+ 1407  git add .\n
+ 1408  git commit -m "cspmWorker: github action script update"\n
+ 1409  git push origin main\n
+ 1410  openssl
+ 1411  cd /Users/cubus/
+ 1412  ls
+ 1413  cd Downloads
+ 1414  ls
+ 1415  openssl x509 -inform DER -in CA.crt -out CA.pem
+ 1416  openssl x509 -inform PEM -subject_hash_old in CA.pem
+ 1417  openssl x509 -inform PEM -subject_hash_old -in CA.pem
+ 1418  mv CA.pem 9a5ba575.0
+ 1419  frida
+ 1420  cd /Users/cubus/cubus/git
+ 1421  ls
+ 1422  vi test.py
+ 1423  python3 test.py
+ 1424  vi test.py
+ 1425  python3 test.py
+ 1426  vi test.py
+ 1427  cd ~
+ 1428  ls
+ 1429  ls -al
+ 1430  cd .powerpipe
+ 1431  ls
+ 1432  cd config
+ 1433  ls
+ 1434  cd ..
+ 1435  ls
+ 1436  sudo -i
+ 1437  steampipe query "select * from azure_network_watcher_flow_log"
+ 1438  az
+ 1439  go run sql.go
+ 1440  history | grep git
+ 1441  git add .
+ 1442  git commit -m "cspmWorker: deploy test"
+ 1443  git push origin main\n
+ 1444  git add .
+ 1445  git commit -m "cspmWorker: deploy test"
+ 1446  git push origin main\n
+ 1447  git add .
+ 1448  git commit -m "cspmWorker: deploy test"
+ 1449  git push origin main\n
+ 1450  git add .
+ 1451  git commit -m "cspmWorker: deploy test"
+ 1452  git push origin main\n
+ 1453  git add .
+ 1454  git commit -m "cspmWorker: deploy test"
+ 1455  git push origin main\n
+ 1456  git add .
+ 1457  git commit -m "cspmWorker: deploy test"
+ 1458  git push origin main\n
+ 1459  git add .
+ 1460  git commit -m "cspmWorker: deploy test"
+ 1461  git push origin main\n
+ 1462  git add .
+ 1463  git commit -m "cspmWorker: deploy test"
+ 1464  git push origin main\n
+ 1465  go run sql.go
+ 1466  ls
+ 1467  cd worker
+ 1468  ls
+ 1469  go run sql.go
+ 1470  ls
+ 1471  cd ..
+ 1472  ls
+ 1473  cd worker
+ 1474  ls
+ 1475  go run main.go
+ 1476  kill -9 65602
+ 1477  go run main.go
+ 1478  kill -9 65963
+ 1479  go run main.go
+ 1480  cd ..
+ 1481  ls
+ 1482  git add .
+ 1483  git commit -m "cspmWorker: gw healthcheck"
+ 1484  git push origin main\n
+ 1485  cd /Users/cubus/cubus/git/
+ 1486  ls
+ 1487  cd sldt_cspm
+ 1488  ls
+ 1489  cd worker
+ 1490  ls
+ 1491  steampipe query "        select\n            name as apgw_name,\n            probe -> 'name' as backend_name,\n            jsonb_array_elements(probe -> 'properties' -> 'backendAddresses') ->> 'ipAddress' AS ipAddress,\n            probe -> 'id' as backend_id\n        from\n            azure_application_gateway,\n            jsonb_array_elements(backend_address_pools) as probe"
+ 1492  steampipe query "select * from azure_application_gateway" --output json > apgw.json
+ 1493  ls
+ 1494  steampipe query "select * from azure_application_gateway" --output json 
+ 1495  ls
+ 1496  rm -rf apgw.json
+ 1497  steampipe query "select * from azure_application_gateway" --output json 
+ 1498  ls
+ 1499  steampipe query "select * from azure_application_gateway" --output json > apgw.json
+ 1500  ls
+ 1501  cat apgw.json
+ 1502  ls
+ 1503  steampipe query "select * from azure_application_gateway" --output json > test.json
+ 1504  ls
+ 1505  cat test.json
+ 1506  rm -rf apgw.json
+ 1507  ls
+ 1508  rm -rf test.json
+ 1509  ls
+ 1510  cd ..
+ 1511  ls
+ 1512  ls -al
+ 1513  ls
+ 1514  steampipe query "select * from azure_application_gateway" --output json > apgw.json
+ 1515  steampipe query
+ 1516  steampipe query "select name as apgw_name, collection from azure_application_gateway, jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1517  steampipe query "select name as apgw_name, collection from azure_application_gateway, jsonb_array_elements(firewall_policy) as collection" --
+ 1518  steampipe query "select name as apgw_name, firewall_policy from azure_application_gateway"
+ 1519  steampipe query "select name as apgw_name, firewall_policy from azure_application_gateway" --output json
+ 1520  steampipe query 
+ 1521  steampipe query "SELECT\n            name AS apgw_name,\n            CASE\n                WHEN firewall_policy IS NULL THEN '{"id":"null"}'\n                ELSE firewall_policy::text\n            END AS firewall_policy\n        FROM\n            azure_application_gateway" -output json
+ 1522  steampipe query "SELECT\n            name AS apgw_name,\n            CASE\n                WHEN firewall_policy IS NULL THEN '{"id":"null"}'\n                ELSE firewall_policy::text\n            END AS firewall_policy\n        FROM\n            azure_application_gateway" --output json
+ 1523  steampipe query "SELECT\n            name AS apgw_name,\n            CASE\n                WHEN firewall_policy IS NULL THEN '{\"id\":\"null\"}'\n                ELSE firewall_policy::text\n            END AS firewall_policy\n        FROM\n            azure_application_gateway" --output json
+ 1524  steampipe query 'SELECT\n            name AS apgw_name,\n            CASE\n                WHEN firewall_policy IS NULL THEN \'{"id":"null"}\'\n                ELSE firewall_policy::text\n            END AS firewall_policy\n        FROM\n            azure_application_gateway' --output json\n\n\n\n\n
+ 1525  steampipe query
+ 1526  cd worker
+ 1527  go run sql.go
+ 1528  ls
+ 1529  cat sql.go
+ 1530  pwd
+ 1531  ls
+ 1532  cd worker
+ 1533  ls
+ 1534  cat sql.go
+ 1535  go run sql.go
+ 1536  ls
+ 1537  go run main.go
+ 1538  kill -9 632201
+ 1539  go run main.go
+ 1540  lsof -i :30001
+ 1541  kill -9 632201
+ 1542  lsof -i :30001
+ 1543  kill -9 3362
+ 1544  lsof -i :30001
+ 1545  go run main.go
+ 1546  lsof -i :30001
+ 1547  kill -9 -f 63201
+ 1548  lsof -i :30001
+ 1549  go run main.go
+ 1550  ls
+ 1551  cd worker
+ 1552  ls
+ 1553  go run sql.go
+ 1554  kill -9 63948
+ 1555  go run main.go
+ 1556  lsof -i :30001
+ 1557  kill -9 35642
+ 1558  go run main.go
+ 1559  history | grep git
+ 1560  git add .\n
+ 1561  git commit -m "cspmWorker: FW link"
+ 1562  git push origin main
+ 1563  git add .\n
+ 1564  git commit -m "cspmWorker: FW link"
+ 1565  git push origin main
+ 1566  steampipe query "        select\n            name AS apgw_name,\n            collection\n        from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1567  steampipe query"        select\n            name AS apgw_name,\n            collection -> name AS frontendName\n            jsonb_array_elements(collection -> 'properties') ->> 'port' AS PORT\n        from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1568  steampipe query "select\n            name AS apgw_name,\n            collection -> name AS frontendName\n            jsonb_array_elements(collection -> 'properties') ->> 'port' AS PORT\n        from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1569  steampipe query "\n        select\n            name AS apgw_name,\n            collection -> name AS frontendName,\n            jsonb_array_elements(collection -> 'properties') ->> 'port' AS PORT\n        from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1570  steampipe query "select\n            name AS apgw_name,\n            collection -> name AS frontendName,\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1571  steampipe query "select\n            name AS apgw_name,\n            collection -> name AS frontendName\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1572  steampipe query "select\n            name AS apgw_name\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1573  steampipe query "select\n            name AS apgw_name, collection\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1574  steampipe query "select\n            name AS apgw_name, collection -> id AS ID\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1575  steampipe query "select\n            name AS apgw_name, collection -> 'id' AS ID\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1576  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1577  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, jsonb_array_elements(collection -> 'properties')\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1578  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, jsonb_array_elements(collection -> 'properties' -> 'port') ->> 'port' AS PORT\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1579  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, jsonb_array_elements(collection -> 'properties') ->> 'port' AS PORT\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1580  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, collection -> 'properties'\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1581  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, jsonb_array_elements(collection -> 'properties')\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1582  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, jsonb_array_elements(collection -> 'properties' -> 'port') -> 'port' AS PORT\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1583  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, jsonb_array_elements(collection -> 'properties' ) AS temp\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1584  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, temp\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1585  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, temp\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection , jsonb_array_elements(collection) temp"
+ 1586  steampipe query "select\n            name AS apgw_name, collection -> 'name' AS FrontEnd_Name, collection -> 'properties'\n         from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1587  steampipe query "steampipe query "SELECT\n    name AS apgw_name,\n    collection -> 'name' AS frontend_name,\n    collection -> 'properties' AS properties,\n    collection -> 'properties' ->> 'port' AS port\nFROM\n    azure_application_gateway,\n    jsonb_array_elements(backend_http_settings_collection) AS collection"\n\n
+ 1588  steampipe query "steampipe query\n    name AS apgw_name,\n    collection -> 'name' AS frontend_name,\n    collection -> 'properties' AS properties,\n    collection -> 'properties' ->> 'port' AS port\nFROM\n    azure_application_gateway,\n    jsonb_array_elements(backend_http_settings_collection) AS collection"\n\n\n
+ 1589  steampipe query "SELECT\n    name AS apgw_name,\n    collection -> 'name' AS frontend_name,\n    collection -> 'properties' AS properties,\n    collection -> 'properties' ->> 'port' AS port\nFROM\n    azure_application_gateway,\n    jsonb_array_elements(backend_http_settings_collection) AS collection"\n
+ 1590  steampipe query "        select\n            name AS apgw_name,\n            collection -> 'name' AS frontend_name,\n            collection -> 'properties' ->> 'port' AS port\n        from\n            azure_application_gateway,\n            jsonb_array_elements(backend_http_settings_collection) as collection"
+ 1591  steampipe query "        select\n            name AS apgw_name,\n            listner -> 'name' AS Linser_Name,\n            listner -> 'propertises' ->> 'hostNames' AS hosts\n        from\n            azure_application_gateway,\n            jsonb_array_elements(http_listeners) as listner"
+ 1592  steampipe query "        select\n            name AS apgw_name,\n            listner -> 'name' AS Linser_Name,\n            listner -> 'properties' ->> 'hostNames' AS hosts\n        from\n            azure_application_gateway,\n            jsonb_array_elements(http_listeners) as listner"
+ 1593  steampipe query "        select\n            name AS apgw_name,\n            listner -> 'name' AS Linser_Name,\n            listner -> 'properties' ->> 'hostNames' AS hosts,\n            listner -> 'properties' ->> frontendPort' AS PORT\n        from\n            azure_application_gateway,\n            jsonb_array_elements(http_listeners) as listner"
+ 1594  steampipe query "        select\n            name AS apgw_name,\n            listner -> 'name' AS Linser_Name,\n            listner -> 'properties' ->> 'hostNames' AS hosts,\n            listner -> 'properties' ->> 'frontendPort' AS PORT\n        from\n            azure_application_gateway,\n            jsonb_array_elements(http_listeners) as listner"
+ 1595  steampipe query "        select\n            name AS apgw_name,\n            listner -> 'name' AS Linser_Name,\n            listner -> 'properties' ->> 'hostNames' AS hosts,\n            listner -> 'properties' ->> 'frontendPort'->'id' AS PORT_ID\n        from\n            azure_application_gateway,\n            jsonb_array_elements(http_listeners) as listner"
+ 1596  steampipe query "        select\n            name AS apgw_name,\n            listner -> 'name' AS Linser_Name,\n            listner -> 'properties' ->> 'hostNames' AS hosts,\n            listner -> 'properties' -> 'frontendPort'->>'id' AS PORT_ID\n        from\n            azure_application_gateway,\n            jsonb_array_elements(http_listeners) as listner"
+ 1597  steampipe query "        select\n            name AS apgw_name,\n            frontend -> 'name' AS frontend_name,\n            frontend -> 'id' AS frontend_id,\n            frontend -> 'port' AS port\n        from\n            azure_application_gateway,\n            jsonb_array_elements(frontend_ports) as frontend"
+ 1598  steampipe query "        select\n            name AS apgw_name,\n            frontend -> 'name' AS frontend_name,\n            frontend -> 'id' AS frontend_id,\n            frontend -> 'properties' ->>'port' AS port\n        from\n            azure_application_gateway,\n            jsonb_array_elements(frontend_ports) as frontend"
+ 1599  steampipe query "        select\n            name AS apgw_name,\n            frontend -> 'name' AS frontend_name,\n            frontend -> 'id' AS frontend_id,\n            frontend -> 'properties' ->>'port' AS port\n        from\n            azure_application_gateway,\n            jsonb_array_elements(frontend_ports) as frontend" --output json
+ 1600  ls
+ 1601  go run sql.go
+ 1602  ls
+ 1603  go run main.go
+ 1604  go run sql.go
+ 1605  lsof -i :30001
+ 1606  kill -9 76206
+ 1607  go run main.go
+ 1608  lsof -i :30001
+ 1609  kill -9 78210
+ 1610  ls
+ 1611  go run sql.go
+ 1612  go run main.go
+ 1613  kill -9 26189
+ 1614  go run main.go
+ 1615  go run sql.go
+ 1616  kill -9 27010
+ 1617  go run main.go
+ 1618  go run sql.go
+ 1619  kill -9 33635
+ 1620  go run main.go
+ 1621  go run sql.go
+ 1622  kill -9 38762
+ 1623  go run main.go
+ 1624  history | grep git
+ 1625  git add sql.go
+ 1626  git commit -m "cspmWorker: host&port"
+ 1627  git push origin main
+ 1628  sudo -i
+ 1629  git add .
+ 1630  git commit -m "cspmWorker: host&port"
+ 1631  git push origin main
+ 1632  git add .
+ 1633  git commit -m "cspmWorker: host&port"
+ 1634  git push origin main
+ 1635  go run sql.go
+ 1636  git add .
+ 1637  git commit -m "cspmWorker: host&port"
+ 1638  git push origin main
+ 1639  ls
+ 1640  cd ..
+ 1641  ls
+ 1642  history | grep git
+ 1643  ls
+ 1644  git add .
+ 1645  git commit -m "cspmWorker: restart"
+ 1646  git push origin main
+ 1647  sudo -i
+ 1648  git add .
+ 1649  git commit -m "cspmWorker: deploy.yml Auto IP allow"
+ 1650  git push origin main
+ 1651  git add .
+ 1652  git commit -m "cspmWorker: deploy.yml Auto IP allow"
+ 1653  git push origin main
+ 1654  az ad sp create-for-rbac --name "github-actions-deploy" --role contributor --scopes /subscriptions/6c47a347-6277-47ea-bc05-aa9f2afc5ccd/resourceGroups/rg-soldout --sdk-auth
+ 1655  git add .
+ 1656  git commit -m "cspmWorker: deploy.yml Auto IP allow"
+ 1657  git push origin main
+ 1658  git add .
+ 1659  git push origin main
+ 1660  ls
+ 1661  git add .
+ 1662  git commit -m "cspmWorker: deploy.yml Auto IP allow"
+ 1663  git push origin main
+ 1664  sudo -i
+ 1665  ls
+ 1666  go run main.go
+ 1667  lsof -i :30001
+ 1668  kill -9 51371
+ 1669  go run main.go
+ 1670  lsof -i :30001
+ 1671  kill -9 60387
+ 1672  go run main.go
+ 1673  lsof -i :30001
+ 1674  kill -9 61184
+ 1675  go run main.go
+ 1676  lsof -i :30001
+ 1677  kill -9 81208
+ 1678  go run main.go
+ 1679  lsof -i :30001
+ 1680  kill -9 81522
+ 1681  ls
+ 1682  go run main.go
+ 1683  git add .
+ 1684  ls
+ 1685  git commit -m "cspmWorker: frontend port"
+ 1686  git push origin main
+ 1687  git add .
+ 1688  git commit -m "cspmWorker: frontend port"
+ 1689  git push origin main
+ 1690  git add worker/temp.txt\ngit commit --amend --no-edit\n
+ 1691  git push --force-with-lease origin main\n
+ 1692  pip install git-filter-repo\n
+ 1693  pip3 install git-filter-repo
+ 1694  git filter-repo --path worker/temp.txt --invert-paths\n
+ 1695  git push origin main --force\n
+ 1696  git add .
+ 1697  git commit -m "cspmWorker: frontend port"
+ 1698  git push origin main
+ 1699  git filter-repo --path worker/temp.txt --invert-paths
+ 1700  git push origin main --force
+ 1701  cd .
+ 1702  cd ..
+ 1703  ls
+ 1704  cp -r cspm_worker cspm_worker2
+ 1705  git clone https://github.com/minjoon-koo/cspm_worker.git\ncd cspm_worker\n
+ 1706  git filter-repo --path worker/temp.txt --invert-paths\n
+ 1707  git push origin main --force\n
+ 1708  git status\n
+ 1709  git remote -v\n
+ 1710  git remote add origin https://github.com/minjoon-koo/cspm_worker.git\n
+ 1711  git filter-repo --path worker/temp.txt --invert-paths
+ 1712  git push origin main --force
+ 1713  git add .
+ 1714  git commit -m "cspmWorker: frontend port"
+ 1715  git add .
+ 1716  git commit -m "cspmWorker: frontend"
+ 1717  git add .
+ 1718  git commit -m "cspmWorker: frontend"
+ 1719  ls
+ 1720  cd ..
+ 1721  ls
+ 1722  rm -rf cspm_worker
+ 1723  ls
+ 1724  git add .
+ 1725  git commit -m "cspmWorker: frontend port"
+ 1726  git push origin main --force
+ 1727  ls -al worker
+ 1728  git add .
+ 1729  git commit -m "cspmWorker: frontend port"
+ 1730  git push origin main
+ 1731  git pull origin main --rebase\n
+ 1732  git rm worker/temp.txt\n
+ 1733  git add worker/temp.txt\n
+ 1734  git rebase --continue\n
+ 1735  git push origin main\n
+ 1736  ls
+ 1737  git add .
+ 1738  git rebase --continue\n
+ 1739  git add .
+ 1740  git commit -m "cspmWorker: frontend port"
+ 1741  git push origin main\n
+ 1742  git add .
+ 1743  git commit -m "cspmWorker: frontend port"
+ 1744  git push origin main\n
+ 1745  cd /Users/cubus/cubus/
+ 1746  ls
+ 1747  cd git
+ 1748  ls
+ 1749  mkdir deploy
+ 1750  cd deploy
+ 1751  cd ..
+ 1752  cd Infra-script
+ 1753  ls
+ 1754  cd ..
+ 1755  cd azure
+ 1756  ls
+ 1757  cd functionApp
+ 1758  ls
+ 1759  cd ..
+ 1760  cd deploy
+ 1761  git clone https://github.com/sldt-co-ltd/soldout-helm-charts.git
+ 1762  ls
+ 1763  ./kubernetes_cluster_select.sh
+ 1764  kubectl get pod
+ 1765  ./kubernetes_cluster_select.sh
+ 1766  kubectl get pod
+ 1767  git add .
+ 1768  git commit -m "cspmWorker: unmashal debug"
+ 1769  git push origin main\n
+ 1770  git add .
+ 1771  git commit -m "cspmWorker: unmashal debug"
+ 1772  git push origin main\n
+ 1773  ls
+ 1774  git add .
+ 1775  git commit -m "cspmWorker: go routin"
+ 1776  git push origin main\n
+ 1777  ls
+ 1778  python3 rest.py
+ 1779  python3 pd.py
+ 1780  pip3 install pandas
+ 1781  python3 pd.py
+ 1782  import pandas as pd\n\n# CSV 파일 경로\nfile_path = 'your_dataset.csv'\n\n# 데이터 파일 읽기\ndata = pd.read_csv(file_path)\n\n# 데이터 프레임의 첫 몇 행을 출력하여 열 이름 확인\nprint(data.head())\n\n# 열 이름 출력\nprint(data.columns)\n
+ 1783  python3 pd.py
+ 1784  python3 req.py
+ 1785  python3 replace.py
+ 1786  python3 traning.py
+ 1787  python3 req.py
+ 1788  ./kubernetes_cluster_select.sh
+ 1789  kubectl get pod
+ 1790  ./kubernetes_cluster_select.sh
+ 1791  kubectl get pod
+ 1792  ./kubernetes_cluster_select.sh
+ 1793  kubectl rollout restart deploment -n ingress-nginx ingress-nginx-controller
+ 1794  python3 req.py
+ 1795  ls
+ 1796  cd cloud_function
+ 1797  ls
+ 1798  gcloud
+ 1799  curl https://sdk.cloud.google.com | bash\n
+ 1800  source ~/.zshrc
+ 1801  gcloud functions deploy recommendation_predict \\n--runtime python39 \\n--trigger-http \\n--allow-unauthenticated \\n--entry-point app\n
+ 1802  gcloud auth login
+ 1803  gcloud functions deploy recommendation_predict \\n--runtime python39 \\n--trigger-http \\n--allow-unauthenticated \\n--entry-point app\n
+ 1804  gcloud functions deploy recommendation_predict \\n--runtime python39 \\n--trigger-http \\n--allow-unauthenticated \\n--entry-point app \\n--project data-tracking-430308\n
+ 1805  gcloud functions deploy recommendation_predict \\n--runtime python39 \\n--trigger-http \\n--allow-unauthenticated \\n--entry-point app_entry_point \\n--region asia-northeast3 \\n--project data-tracking-430308\n
+ 1806  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"buyer_id": 123, "item_id": 137474}' \\n  "https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predict"\n
+ 1807  gcloud functions add-iam-policy-binding recommendation_predict \\n--region=asia-northeast3 \\n--member=allUsers \\n--role=roles/cloudfunctions.invoker\n
+ 1808  gcloud functions add-iam-policy-binding recommendation_predict \\n--region=asia-northeast3 \\n--member=allUsers \\n--role=roles/cloudfunctions.invoker \\n--project data-tracking-430308\n
+ 1809  gcloud config set project data-tracking-430308\n
+ 1810  gcloud config get-value project\n
+ 1811  gcloud projects get-iam-policy
+ 1812  gcloud projects get-iam-policy data-tracking-430308
+ 1813  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"buyer_id": 123, "item_id": 137474}' \\n  "https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predict"\n
+ 1814  gcloud functions add-iam-policy-binding recommendation_predict \\n--region=asia-northeast3 \\n--member=allUsers \\n--role=roles/cloudfunctions.invoker \\n--project data-tracking-430308
+ 1815  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"buyer_id": 123, "item_id": 137474}' \\n  "https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predict"\n
+ 1816  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"buyer_id": 123, "item_id": 137474}' \\n  "https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predic"\n
+ 1817  gcloud functions deploy recommendation_predict \\n--runtime python39 \\n--trigger-http \\n--allow-unauthenticated \\n--entry-point app_entry_point \\n--region asia-northeast3 \\n--project data-tracking-430308\n
+ 1818  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"buyer_id": 123, "item_id": 137474}' \\n  "https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predic"\n
+ 1819  gcloud functions deploy recommendation_predict \\n--runtime python39 \\n--trigger-http \\n--allow-unauthenticated \\n--entry-point app_entry_point \\n--region asia-northeast3 \\n--project data-tracking-430308
+ 1820  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"buyer_id": 123, "item_id": 137474}' \\n  "https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predic"\n
+ 1821  gcloud functions deploy recommendation_predict \\n--runtime python39 \\n--trigger-http \\n--allow-unauthenticated \\n--entry-point app_entry_point \\n--region asia-northeast3 \\n--project data-tracking-430308\n
+ 1822  gcloud functions get-iam-policy recommendation_predict --region=asia-northeast3\n
+ 1823  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"buyer_id": 123, "item_id": 137474}' \\n  "https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predict"\n
+ 1824  gcloud functions logs read recommendation_predict --region=asia-northeast3\n
+ 1825  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"buyer_id": 123, "item_id": 137474}' \\n  "https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predict/predict"\n
+ 1826  curl -m 70 -X POST https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predict/predict \\n-H "Authorization: bearer $(gcloud auth print-identity-token)" \\n-H "Content-Type: application/json" \\n-d '{"buyer_id": 123, "item_id": 137474}'
+ 1827  curl -m 70 -X POST https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predict \\n-H "Authorization: bearer $(gcloud auth print-identity-token)" \\n-H "Content-Type: application/json" \\n-d '{"buyer_id": 123, "item_id": 137474}'
+ 1828  gcloud functions deploy recommendation_predict \\n--runtime python39 \\n--trigger-http \\n--allow-unauthenticated \\n--entry-point app_entry_point \\n--region asia-northeast3 \\n--project data-tracking-430308\n
+ 1829  curl -m 70 -X POST https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation_predict \\n-H "Authorization: bearer $(gcloud auth print-identity-token)" \\n-H "Content-Type: application/json" \\n-d '{"buyer_id": 123, "item_id": 137474}'
+ 1830  gcloud functions deploy predict_rating \\n  --runtime python39 \\n  --trigger-http \\n  --allow-unauthenticated \\n  --entry-point app \\n  --region asia-northeast3 \\n    --project data-tracking-430308
+ 1831  gcloud functions deploy predict_rating \\n  --runtime python39 \\n  --trigger-http \\n  --allow-unauthenticated \\n  --entry-point main \\n  --region asia-northeast3 \\n  --project data-tracking-430308\n
+ 1832  docker build -t gcr.io/data-tracking-430308/prediction-app .
+ 1833  docker push gcr.io/data-tracking-430308/prediction-app
+ 1834  gcloud init\n
+ 1835  gcloud auth configure-docker\n
+ 1836  docker push gcr.io/data-tracking-430308/prediction-app\n
+ 1837  gcloud artifacts repositories create prediction-app-repo \\n    --repository-format=docker \\n    --location=asia-northeast3 \\n    --description="Docker repository for prediction app"\n
+ 1838  gcloud auth configure-docker asia-northeast3-docker.pkg.dev\n
+ 1839  docker build -t asia-northeast3-docker.pkg.dev/data-tracking-430308/prediction-app-repo/prediction-app .\n
+ 1840  docker push gcr.io/data-tracking-430308/prediction-app\n
+ 1841  docker push asia-northeast3-docker.pkg.dev/data-tracking-430308/prediction-app-repo/prediction-app\n
+ 1842  gcloud run deploy prediction-app \\n  --image asia-northeast3-docker.pkg.dev/data-tracking-430308/prediction-app-repo/prediction-app \\n  --platform managed \\n  --region asia-northeast3 \\n  --allow-unauthenticated\n
+ 1843  # Docker 이미지 빌드\ndocker build -t asia-northeast3-docker.pkg.dev/data-tracking-430308/prediction-app-repo/prediction-app .\n\n# Docker 이미지 푸시\ndocker push asia-northeast3-docker.pkg.dev/data-tracking-430308/prediction-app-repo/prediction-app\n
+ 1844  gcloud run deploy prediction-app \\n  --image asia-northeast3-docker.pkg.dev/data-tracking-430308/prediction-app-repo/prediction-app \\n  --platform managed \\n  --region asia-northeast3 \\n  --allow-unauthenticated\n
+ 1845  gcloud logging read "resource.type=\"cloud_run_revision\" resource.labels.service_name=\"prediction-app\"" --project=data-tracking-430308 --freshness=15m\n
+ 1846  ㅣㄴ
+ 1847  ls
+ 1848  pip3 install Flask
+ 1849  pip3 install gunicorn
+ 1850  pip3 install google-cloud-bigquery
+ 1851  gunicorn -b 8080 app:app
+ 1852  gunicorn -b 8888 app:app
+ 1853  gunicorn -b 80 app:app
+ 1854  gunicorn -b 8080 app:app
+ 1855  gunicorn -b 0.0.0.0:8080 app:app\n
+ 1856  gunicorn -b 0.0.0.0:8080 main:app\n
+ 1857  gcloud auth application-default login\n
+ 1858  export GOOGLE_APPLICATION_CREDENTIALS="/Users/cubus/.config/gcloud/application_default_credentials.json"
+ 1859  gunicorn -b 0.0.0.0:8080 main:app
+ 1860  kill 08 84589
+ 1861  kill -9 84589
+ 1862  python3 
+ 1863  python3 ../req.py
+ 1864  python3 ../ares.py
+ 1865  gsutil iam ch serviceAccount:735738154268-compute@developer.gserviceaccount.com:roles/storage.objectViewer gs://soldout-ml-models-bucket\n
+ 1866  ls
+ 1867  cd ..
+ 1868  ls
+ 1869  cd deploy_run
+ 1870  ls
+ 1871  gcloud builds submit --tag gcr.io/data-tracking-430308/recommend-function
+ 1872  ls
+ 1873  gcloud builds submit --tag gcr.io/data-tracking-430308/recommend-function\n
+ 1874  docker build -t recommend-function .\n
+ 1875  ls
+ 1876  docker run -p 8080:8080 recommend-function\n
+ 1877  gcloud run services add-iam-policy-binding recommend-function \\n    --member="allUsers" \\n    --role="roles/run.invoker" \\n    --region asia-northeast3
+ 1878  curl -X POST \\n  -H "Content-Type: application/json" \\n  -d '{"interested_items": [136888, 54388, 111812], "top_n": 30}' \\n  https://recommend-function-t76ngmffhq-du.a.run.app\n
+ 1879  # 가상 환경 생성\npython -m venv venv\n\n# 가상 환경 활성화\n# Windows\nvenv\Scripts\activate\n# MacOS/Linux\nsource venv/bin/activate\n\n# 필요한 패키지 설치\npip install -r requirements.txt\n
+ 1880  ls
+ 1881  pip3 install -r requirements.txt
+ 1882  python3 test.py
+ 1883  pip3 install tensorflow
+ 1884  python3 test.py
+ 1885  pip3 install google-cloud-storage\n
+ 1886  python3 test.py
+ 1887  python3 mem.py
+ 1888  ls
+ 1889  cd ..
+ 1890  ls
+ 1891  python3 mem.py
+ 1892  ls
+ 1893  ./kubernetes_cluster_select.sh
+ 1894  kubectl get pod
+ 1895  ./kubernetes_cluster_select.sh
+ 1896  kubectl get pod
+ 1897  ./kubernetes_cluster_select.sh
+ 1898  kubectl get pod
+ 1899  ./kubernetes_cluster_select.sh
+ 1900  kubectl get pod
+ 1901  ./kubernetes_cluster_select.sh
+ 1902  ls
+ 1903  ls al
+ 1904  ls -al
+ 1905  cd .git
+ 1906  ls
+ 1907  cd ..
+ 1908  ls
+ 1909  cd ..
+ 1910  ls
+ 1911  cd deploy
+ 1912  ls
+ 1913  cd soldout-helm-charts
+ 1914  cd ..
+ 1915  cd soldout-helm-charts
+ 1916  ls
+ 1917  cd docker-deploy
+ 1918  ls
+ 1919  python3 main.py 
+ 1920  pip3 install db-dtypes
+ 1921  python3 main.py 
+ 1922  ./kubernetes_cluster_select.sh
+ 1923  kubectl get pod
+ 1924  python3 main.py 
+ 1925  ls
+ 1926  cd docker-deploy
+ 1927  ls
+ 1928  python3 main.py
+ 1929  pip3 install google-cloud-bigquery-storage
+ 1930  python3 main.py
+ 1931  lsof -i:5000
+ 1932  kill -9 867
+ 1933  python3 main.py
+ 1934  lsof -i:5000
+ 1935  flask
+ 1936  flask -app main run
+ 1937  flask --app main run
+ 1938  lsof -i:5000
+ 1939  kill -9 65297
+ 1940  kill -9 67775
+ 1941  lsof -i:5000
+ 1942  flask --app main run
+ 1943  curl -X POST \\n
+ 1944  curl -X POST http://localhost:5000/recommendation \\n
+ 1945  curl -X POST http://localhost:5000/recommendation -H "Content-Type: application/json" -d {"name":"qqqq","num":"123"}\n
+ 1946  curl -X POST http://localhost:5000/ -H "Content-Type: application/json" -d {"name":"qqqq","num":"123"}\n
+ 1947  curl -X GET http://localhost:5000/ -H "Content-Type: application/json" -d {"name":"qqqq","num":"123"}\n
+ 1948  curl -X GET http://localhost:5000/ -H "Content-Type: application/json"\n
+ 1949  curl -X GET http://localhost:5000/\n
+ 1950  lsof -i:5000
+ 1951  kill -9 73744
+ 1952  flask --app main run 0.0.0.0:5000
+ 1953  flask --app main run
+ 1954  lsof -i:5000
+ 1955  kill -9 77677
+ 1956  flask --app main run --host=0.0.0.0 --port=5000\n
+ 1957  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1958  curl -X GET http://127.0.0.1:5000/ -H "Content-Type: application/json" -d {"name":"qqqq","num":"123"}\n
+ 1959  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d {"name":"qqqq","num":"123"}\n
+ 1960  lsof -i:5000
+ 1961  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1962  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d {"name":"qqqq","num":"123"}\n
+ 1963  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1964  lsof -i:5000
+ 1965  kill -9 80731
+ 1966  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1967  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d {"name":"qqqq","num":"123"}\n
+ 1968  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{"name":"qqqq","num":"123"}'\n
+ 1969  kill -9 81180
+ 1970  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1971  kill -9 82201
+ 1972  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1973  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'\n
+ 1974  kill -9 822554
+ 1975  kill -9 82554
+ 1976  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1977  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'\n
+ 1978  kill -9 82886
+ 1979  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1980  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'\n
+ 1981  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 30\n}'\n
+ 1982  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 50\n}'\n
+ 1983  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949,111],\n    "top_n": 50\n}'\n
+ 1984  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [111],\n    "top_n": 50\n}'\n
+ 1985  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882],\n    "top_n": 50\n}'\n
+ 1986  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882,5455951],\n    "top_n": 50\n}'\n
+ 1987  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [],\n    "top_n": 50\n}'\n
+ 1988  curl -m 70 -X POST https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation-api \\n-H "Authorization: bearer $(gcloud auth print-identity-token)" \\n-H "Content-Type: application/json" \\n-d '{\n    "interested_items": [],\n    "top_n": 50\n}'
+ 1989  curl -m 70 -X POST https://asia-northeast3-data-tracking-430308.cloudfunctions.net/recommendation-api \\n-H "Content-Type: application/json" \\n-d '{\n    "interested_items": [],\n    "top_n": 50\n}'
+ 1990  kill 09 83748
+ 1991  kill -9 83748
+ 1992  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1993  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882,5455951],\n    "top_n": 50\n}'\n
+ 1994  kill -9 99636
+ 1995  flask --app main run --host=127.0.0.1 --port=5000\n
+ 1996  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882,5455951],\n    "top_n": 50\n}'\n
+ 1997  kill -9 344
+ 1998  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882,5455951],\n    "top_n": 50\n}'\n
+ 1999  flask --app main run --host=127.0.0.1 --port=5000\n
+ 2000  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882,5455951],\n    "top_n": 50\n}'\n
+ 2001  kill -9 1035
+ 2002  flask --app main run --host=127.0.0.1 --port=5000\n
+ 2003  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882,5455951],\n    "top_n": 50\n}'\n
+ 2004  kill -9 1249
+ 2005  pm2
+ 2006  npm
+ 2007  brew install node
+ 2008  npm
+ 2009  npm install pm2
+ 2010  pm2
+ 2011  npm install pm2 -g
+ 2012  pm2 
+ 2013  pm2 list
+ 2014  pm2 start main.py --interpreter python3
+ 2015  pm2 list
+ 2016  pm2 stop main
+ 2017  pm2 start main.py --interpreter python3
+ 2018  pm2 list
+ 2019  pm2 stop main
+ 2020  gunicorn -b 0.0.0.0:8080 main:app
+ 2021  kill -9 11374
+ 2022  gunicorn -b 127.0.0.1:5000 main:app
+ 2023  kill -9 14243
+ 2024  pm2 start gunicorn --name recommendation-api --bind 127.0.0.1:5000 main:app
+ 2025  pm2 start gunicorn --name recommendation-api --b 127.0.0.1:5000 main:app
+ 2026  pm2 start gunicorn --name recommendation-api -b 127.0.0.1:5000 main:app
+ 2027  pm2 start gunicorn --name recommendation-api  127.0.0.1:5000 main:app
+ 2028  pm2 start gunicorn --name recommendation-api --bind 127.0.0.1:5000 main:app
+ 2029  pm2 start gunicorn --name recommendation-api -- gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2030  pm2 start --name recommendation-api --interpreter python3 -- gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2031  pm2 start gunicorn --name recommendation-api -- gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2032  pm2 start python3 --name recommendation-api -- gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2033  pm2 stop 2
+ 2034  pm2 stop 1
+ 2035  pm2 start python3 --name recommendation-api -- gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2036  pm2 list
+ 2037  pm2 stop 3
+ 2038  pm2 log 3\n
+ 2039  which gunicorn\n
+ 2040  pm2 start /opt/homebrew/bin/gunicorn --name recommendation-api -- --bind 127.0.0.1:5000 main:app\n
+ 2041  pm2 list
+ 2042  pm2 restart
+ 2043  pm2 reload
+ 2044  pm2 list
+ 2045  pm2 start /opt/homebrew/bin/gunicorn --name recommendation-api -- --bind 127.0.0.1:5000 main:app\n
+ 2046  pm2 list
+ 2047  pm2 log 1
+ 2048  pm2 start /opt/homebrew/bin/python3 --name recommendation-api -- /opt/homebrew/bin/gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2049  pm2 start python3 --name recommendation-api -- /opt/homebrew/bin/gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2050  pm2 list
+ 2051  pm2 log 4
+ 2052  pip3 install gunicorn
+ 2053  pm2 start python3 --name recommendation-api -- /opt/homebrew/bin/gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2054  pm2 list
+ 2055  gunicorn --bind 127.0.0.1:5000 main:app\n
+ 2056  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882,5455951],\n    "top_n": 50\n}'\n
+ 2057  kill -9 43257
+ 2058  gunicorn --bind 127.0.0.1:5000 --timeout 120 --workers 8 main:app 
+ 2059  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [882,5455951],\n    "top_n": 50\n}'\n
+ 2060  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'\n
+ 2061  kill -9 44183
+ 2062  gunicorn --bind 127.0.0.1:5000 --timeout 120 --workers 8 main:app 
+ 2063  kill -9 48989
+ 2064  gunicorn --bind 127.0.0.1:5000 --timeout 120 --workers 8 main:app 
+ 2065  kill -9 49124
+ 2066  gunicorn --bind 127.0.0.1:5000 --timeout 120 main:app 
+ 2067  kill -9 51973
+ 2068  gunicorn --bind 127.0.0.1:5000 --timeout 120 main:app 
+ 2069  kill -9 52727
+ 2070  gunicorn --bind 127.0.0.1:5000 --timeout 120 main:app 
+ 2071  kill -9 53004
+ 2072  flask --app main run --host=127.0.0.1 --port=5000\n
+ 2073  kill -9 53272
+ 2074  flask --app main run --host=127.0.0.1 --port=5000\n
+ 2075  kill -9 53426
+ 2076  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2077  kill -9 53549
+ 2078  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2079  kill -9 55435
+ 2080  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2081  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [5617882],\n    "top_n": 10\n}'\n
+ 2082  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'\n
+ 2083  curl -X POST http://127.0.0.1:5050/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [5617882],\n    "top_n": 10\n}'\n
+ 2084  kill -9 59122\n
+ 2085  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2086  kill -9 62832
+ 2087  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2088  curl -X POST http://127.0.0.1:5050/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [5617882],\n    "top_n": 10\n}'\n
+ 2089  kill -9 63390
+ 2090  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2091  kill -9 65653
+ 2092  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2093  curl -X POST http://127.0.0.1:5000/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'\n
+ 2094  curl -X POST http://127.0.0.1:5050/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'\n
+ 2095  kill -9 66350
+ 2096  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2097  kill -9 67820
+ 2098  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2099  kill -9 72925
+ 2100  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2101  kill -9 73700
+ 2102  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2103  ls
+ 2104  vi Dockerfile
+ 2105  ls
+ 2106  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2107  docker push gcr.io/data-tracking-430308/recommendation:v1\n
+ 2108  docker system prune -f\nsudo systemctl restart docker\n
+ 2109  docker push gcr.io/data-tracking-430308/recommendation:v1\n
+ 2110  docker build -t gcr-mlops/data-tracking-430308/recommendation:v1 .
+ 2111  docker push gcr-mlops/data-tracking-430308/recommendation:v1\n
+ 2112  docker push gcr.io/data-tracking-430308/recommendation:v1\n
+ 2113  gcloud run deploy flask-app --image gcr.io/data-tracking-430308/recommendation:v1 --platform managed --region asia-northeast3 --allow-unauthenticated\n
+ 2114  gcloud run deploy recommendation-api --image gcr.io/data-tracking-430308/recommendation:v1 --platform managed --region us-central1 --allow-unauthenticated
+ 2115  gcloud run deploy recommendation-api --image gcr.io/data-tracking-430308/recommendation:v1 --platform managed --region asia-northeast3 --allow-unauthenticated
+ 2116  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .\n
+ 2117  docker push gcr.io/data-tracking-430308/recommendation:v1
+ 2118  gcloud run deploy recommendation-api --image gcr.io/data-tracking-430308/recommendation:v1 --platform managed --region asia-northeast3 --allow-unauthenticated
+ 2119  docker list
+ 2120  docker 
+ 2121  docker image
+ 2122  docker images
+ 2123  docker rmi $(docker images -q)\n
+ 2124  docker build -t testml .\n
+ 2125  lsof -i:8080
+ 2126  lsof -i:8000
+ 2127  lsof -i:80
+ 2128  docker build -t flask-app:local .\n\n
+ 2129  docker run -d -p 8080:8080 flask-app:local\n
+ 2130  docker build -t flask-app:local .\n
+ 2131  docker run -d -p 8080:8080 flask-app:local\n
+ 2132  docker build -t flask-app:local .
+ 2133  docker run -d -p 8080:8080 -e PORT=8080 flask-app:local
+ 2134  docker build -t flask-app:local .
+ 2135  docker run -d -p 8080:8080 -e PORT=8080 flask-app:local
+ 2136  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2137  docker push gcr.io/data-tracking-430308/recommendation:v1
+ 2138  gcloud run deploy recommendation-api --image gcr.io/data-tracking-430308/recommendation:v1 --platform managed --region asia-northeast3 --allow-unauthenticated
+ 2139  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2140  docker rmi $(docker images -q)\n
+ 2141  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2142  docker push gcr.io/data-tracking-430308/recommendation:v1
+ 2143  gcloud run deploy recommendation-api --image gcr.io/data-tracking-430308/recommendation:v1 --platform managed --region asia-northeast3 --allow-unauthenticated
+ 2144  docker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:local
+ 2145  docker build -t gcr.io/data-tracking-430308/recommendation:local .
+ 2146  docker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:local
+ 2147  docker build -t gcr.io/data-tracking-430308/recommendation:local .
+ 2148  docker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:local
+ 2149  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2150  docker push gcr.io/data-tracking-430308/recommendation:v1
+ 2151  gcloud run deploy recommendation-api \\n  --image gcr.io/data-tracking-430308/recommendation:v1 \\n  --platform managed \\n  --region asia-northeast3 \\n  --allow-unauthenticated \\n  --memory 16Gi \\n  --cpu 4
+ 2152  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2153  docker push gcr.io/data-tracking-430308/recommendation:v1
+ 2154  gcloud run deploy recommendation-api \\n  --image gcr.io/data-tracking-430308/recommendation:v1 \\n  --platform managed \\n  --region asia-northeast3 \\n  --allow-unauthenticated \\n  --memory 8Gi \\n  --cpu 2 \\n  --min-instances 1 \\n  --max-instances 5 \\n  --timeout 600
+ 2155  docker build -t gcr.io/data-tracking-430308/recommendation:local .
+ 2156  docker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:local
+ 2157  docker build -t gcr.io/data-tracking-430308/recommendation:local .\ndocker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:local\n
+ 2158  docker build -t gcr.io/data-tracking-430308/recommendation:v1 .\ndocker push gcr.io/data-tracking-430308/recommendation:v1
+ 2159  docker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:local\n
+ 2160  docker run -it gcr.io/data-tracking-430308/recommendation:v1 /bin/bash\n
+ 2161  docker buildx build --platform linux/amd64 -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2162  gcloud run deploy recommendation-api --image gcr.io/data-tracking-430308/recommendation:v1 --platform managed --region asia-northeast3 --allow-unauthenticated --timeout 600\n
+ 2163  docker push gcr.io/data-tracking-430308/recommendation:v1
+ 2164  gcloud run deploy recommendation-api --image gcr.io/data-tracking-430308/recommendation:v1 --platform managed --region asia-northeast3 --allow-unauthenticated --timeout 600
+ 2165  curl -X POST https://recommendation-api-t76ngmffhq-du.a.run.app/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'
+ 2166  l
+ 2167  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2168  kill -9 24970
+ 2169  flask --app main run --host=127.0.0.1 --port=5050\n
+ 2170  curl -X POST https://recommendation-api-t76ngmffhq-du.a.run.app/recommendation -H "Content-Type: application/json" -d '{\n    "interested_items": [8729, 5455951, 30949],\n    "top_n": 10\n}'
+ 2171  ls
+ 2172  pwd
+ 2173  ls -al
+ 2174  git status
+ 2175  git add .
+ 2176  git commit -m "20240814"
+ 2177  git push origin master
+ 2178  openssl
+ 2179  pwd
+ 2180  cd ..
+ 2181  ls
+ 2182  cd board
+ 2183  ls
+ 2184  openssl x509 -inform der -in soldout_new -out soldout_new.pem
+ 2185  openssl x509 -inform der -in ./soldout_new -out soldout_new.pem
+ 2186  openssl x509 -inform PEM -in ./soldout_new -out soldout_new.pem
+ 2187  cp soldout_new soldout_new.pem
+ 2188  openssl x509 -inform PEM -in ./soldout_new.pem  -out soldout_new2.pem
+ 2189  cat soldout_new
+ 2190  ssh -c aes256-cbc -o StrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null" -o "LogLevel ERROR" root@127.0.0.1 -p 23191
+ 2191  git push origin master
+ 2192  git add .
+ 2193  git commit -m "20240827"
+ 2194  git push origin master
+ 2195  git
+ 2196  git config 
+ 2197  git add .
+ 2198  git commit -m "20240827"
+ 2199  git push origin master
+ 2200  ls
+ 2201  cat deploy.log
+ 2202  docker buildx build --platform linux/amd64 -t gcr.io/data-tracking-430308/recommendation:v1 .
+ 2203  history | grep docker
+ 2204  docker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:local
+ 2205  docker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:v1
+ 2206  docker build -t gcr.io/data-tracking-430308/recommendation:local .
+ 2207  docker run -e PORT=8080 -p 8080:8080 gcr.io/data-tracking-430308/recommendation:local
+ 2208  ls
+ 2209  git add .
+ 2210  git commit -m "20240827:모델 포멧 변경(h5 -> keras)"
+ 2211  git push origin master
+ 2212  git add .
+ 2213  git commit -m "20240827"
+ 2214  git push origin master
+ 2215  git pull
+ 2216  git pull origin main --rebase\n
+ 2217  ls
+ 2218  lsof -i :8080
+ 2219  ls
+ 2220  cd worker
+ 2221  ls
+ 2222  go run main.go
+ 2223  sudo systemctl start grafana-server
+ 2224  brew services start grafana
+ 2225  brew services restart grafana
+ 2226  git pull
+ 2227  git pull origin main --rebase\n
+ 2228  git pull --rebase
+ 2229  git rebase --continue\n
+ 2230  git rebase --abort\n
+ 2231  git pull
+ 2232  git rebase --continue\n
+ 2233  git pull --rebase
+ 2234  git add .
+ 2235  git commit -m "20240830"
+ 2236  git push origin master
+ 2237  go run main.go
+ 2238  ls
+ 2239  cd worker
+ 2240  ls
+ 2241  go run main.go
+ 2242  steampipe query"select * from azure_ad_service_principal"
+ 2243  steampipe query "select * from azure_ad_service_principal"
+ 2244  steampipe query "select * from azure_ad_user"
+ 2245  az
+ 2246  pwd
+ 2247  ls
+ 2248  steampipe query "select * from azure_ad_user"
+ 2249  steampipe query "select * from azuread_user"
+ 2250  steampipe query "select * from azuread_service_principal"
+ 2251  cd ~
+ 2252  ls
+ 2253  ls -al
+ 2254  f
+ 2255  ls
+ 2256  cd cubus
+ 2257  ls
+ 2258  cd git
+ 2259  ls
+ 2260  cd board
+ 2261  ls
+ 2262  steampipe query "selec * from azuread_application;"
+ 2263  steampipe query "select * from azuread_application;"
+ 2264  ls
+ 2265  cd ..
+ 2266  ls
+ 2267  pwd
+ 2268  cd worker
+ 2269  ls
+ 2270  steampipe query "select * from azuread_application;" > temp.txt
+ 2271  az login
+ 2272  steampipe query "select * from azuread_application;" > temp.txt
+ 2273  steampipe query "selec * from azuread_application;" | grep cspm
+ 2274  steampipe query "select * from azuread_application;" | grep cspm
+ 2275  steampipe query "select * from azuread_application;" |grep cspm
+ 2276  cd ~
+ 2277  ls
+ 2278  cd .steampipe
+ 2279  ls
+ 2280  cd config
+ 2281  ls
+ 2282  cat azure.spc
+ 2283  cat azuread.spc
+ 2284  vi azure.spc
+ 2285  ls
+ 2286  cd ~
+ 2287  cat .steampipe/config/azure.spc
+ 2288  cd -
+ 2289  ls
+ 2290  steampipe query "select * from azuread_application;" 
+ 2291  steampipe query "select * from azuread_application;"  | grep csmp
+ 2292  steampipe query "select * from azuread_application;"  | grep cspm
+ 2293  steampipe query "select * from azuread_application;" 
+ 2294  steampipe query "select * from azuread_application;" | grep cspm
+ 2295  steampipe query "select * from azuread_application;" |grep cspm
+ 2296  steampipe query "select * from azuread_application;" | grep cspm
+ 2297  steampipe query "select display_name, password_credentials from azuread_application;" 
+ 2298  steampipe query "select display_name, password_credentials from azuread_application;"  | grep cspm
+ 2299  git pull
+ 2300  git branch
+ 2301  git switch -c "koo-0902"
+ 2302  git branch
+ 2303  brew install helm
+ 2304  helm version
+ 2305  helm repo add stable https://charts.helm.sh/stable\nhelm repo add bitnami https://charts.bitnami.com/bitnami
+ 2306  helm repo list
+ 2307  helm repo update
+ 2308  helm search repo nginx
+ 2309  helm completion zsh > "${fpath[1]}/_helm"
+ 2310  helm install test-chart bitnami/nginx
+ 2311  ls
+ 2312  helm create test-chart
+ 2313  helm list
+ 2314  cd ..
+ 2315  helm values
+ 2316  helm version
+ 2317  docker build -t testphp .
+ 2318  git add .
+ 2319  git commit -m "20240904"
+ 2320  git push origin master
+ 2321  git push origin main
+ 2322  git add .
+ 2323  git commit -m "20240904-1"
+ 2324  git push origin main
+ 2325  docker build -t testphp .
+ 2326  az aks get-credentials --resource-group rg-soldout --name helm-deploy-test --overwrite-existing
+ 2327  get pod
+ 2328  kubectl get pod
+ 2329  az aks update -g rg-soldout -n helm-deploy-test --attach-acr vaultacrsoldout
+ 2330  cd test
+ 2331  kubectl apply -f .
+ 2332* wget https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v3.6.2/deploy/crds.yaml
+ 2333* pwd
+ 2334* ls
+ 2335* cp ./test-chart/ingress-nginx-controller.yaml ./
+ 2336* ls
+ 2337* kubectl get pod
+ 2338* kubectl apply -f ./ingress-nginx-controller.yaml
+ 2339* kubectl get ingress
+ 2340* kubectl get service
+ 2341* kubectl get ns
+ 2342* kubectl apply -f ingress-nginx-controller.yaml
+ 2343* ubectl config current-context
+ 2344* kubectl config current-context
+ 2345* kubectl delete -f ingress-nginx-controller.yaml
+ 2346* kubectl apply -f https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v3.6.2/deploy/crds.yaml
+ 2347* kubectl get ns
+ 2348* kubectl get service
+ 2349* kubectl get ingress
+ 2350* kubectl delete -f https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v3.6.2/deploy/crds.yaml
+ 2351* kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml\n
+ 2352* kubectl get ingress
+ 2353* kubectl get service
+ 2354* kubectl get ns
+ 2355* kubectl -n ingress-nginx get service
+ 2356* kubectl ingress
+ 2357* kubectl get ingress
+ 2358* kubectl edit ingress helm-ingress
+ 2359  pwd
+ 2360  ls
+ 2361  cd ..
+ 2362  ls
+ 2363  mv hist.txtr hist.txt
