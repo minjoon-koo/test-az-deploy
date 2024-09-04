@@ -7,6 +7,8 @@ $dotenv->load();
 
 echo "Hello World!";
 
+echo "latast";
+
 $aValue = getenv("a");
 echo "a Variable Value: " . $aValue . "<br>";
 
