@@ -14,7 +14,7 @@ WORKDIR /var/www/html/
 RUN composer require vlucas/phpdotenv
 
 # Copy files to container
-COPY index.htm /var/www/html/
+COPY index.html /var/www/html/
 #COPY ./envs/t1.env /var/www/html/
 #COPY ./envs/t2.env /var/www/html/
 #COPY ./envs/test.env /var/www/html/
