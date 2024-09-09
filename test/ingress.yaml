@@ -9,7 +9,7 @@ metadata:
     nginx.ingress.kubernetes.io/proxy-send-timeout: "600"
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
   name: helm-ingress
-  namespace: default
+  namespace: dev
 spec:
   ingressClassName: nginx
   rules:
@@ -23,38 +23,33 @@ spec:
               number: 80
         path: /
         pathType: Prefix
-  - host: hemlhtml.soldout.co.kr
-    http:
-      paths:
-      - backend:
-          service:
-            name: hello-html
-            port:
-              number: 80
-        path: /
-        pathType: Prefix
+  tls:
+   - secretName: helm-test-tls
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   annotations:
     ingress.kubernetes.io/rewrite-target: /
+    ingressclass.kubernetes.io/is-default-class: "true"
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
     nginx.ingress.kubernetes.io/proxy-send-timeout: "600"
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
-  name: dev-ingress
+  name: dev-rebbitmq-ingress
   namespace: dev
 spec:
   ingressClassName: nginx
   rules:
-  - host: hemlhtm.soldout.co.kr
+  - host: test-rbq.soldout.co.kr
     http:
       paths:
       - backend:
           service:
-            name: hello-htm
+            name: rabbitmq
             port:
-              number: 80
+              number: 15672
         path: /
         pathType: Prefix
+  tls:
+   - secretName: helm-test-tls   

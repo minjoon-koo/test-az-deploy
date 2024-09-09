@@ -3,6 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: hello-helm
+  namespace: dev
 spec:
   ports:
   - name: http
@@ -12,31 +13,41 @@ spec:
   selector:
     app: hello-world-php-deploy
   type: ClusterIP
+
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-html
+  annotations:
+    service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
+    service.kubernetes.io/azure-load-balancer-resource-group: MC_rg-soldout_helm-deploy-test_koreacentral
+  labels:
+    app.kubernetes.io/component: controller
+    app.kubernetes.io/instance: ingress-nginx
+    app.kubernetes.io/name: ingress-nginx
+    app.kubernetes.io/part-of: ingress-nginx
+    app.kubernetes.io/version: 1.10.0
+  name: ingress-nginx-controller
+  namespace: ingress-nginx
 spec:
+  externalTrafficPolicy: Local
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
   ports:
-  - name: http
+  - appProtocol: http
+    name: http
     port: 80
     protocol: TCP
-    targetPort: 80
-  selector:
-    app: test-az-deploy2
-  type: ClusterIP 
---- 
-apiVersion: v1
-kind: Service
-metadata:
-  name: hello-htm
-spec:
-  ports:
-  - name: http
-    port: 80
+    targetPort: http
+  - appProtocol: https
+    name: https
+    port: 443
     protocol: TCP
-    targetPort: 80
+    targetPort: https
   selector:
-    app: test-az-deploy3
-  type: ClusterIP 
+    app.kubernetes.io/component: controller
+    app.kubernetes.io/instance: ingress-nginx
+    app.kubernetes.io/name: ingress-nginx
+  type: LoadBalancer
+  loadBalancerIP: "4.230.145.191"
