@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: hello-world-php-deploy
 
-  replicas: 1
+  replicas: 2
   strategy:
     type: RollingUpdate
     rollingUpdate:
